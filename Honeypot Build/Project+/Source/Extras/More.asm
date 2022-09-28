@@ -5,6 +5,9 @@
 
 #.include source/Extras/USBGecko.asm 		# Adds support for Gecko codes passed in by a USB Gecko
 
+Skip strap screen [PyotrLuzhin]
+* 046CADE8 48000298
+
 ############################################################################
 Set random stagelist based on Code Menu Stagelist setting (ILPM) [Bird]
 ############################################################################
