@@ -24,7 +24,7 @@ SAMUS
 YOSHI
 
 KIRBY
-24 -  Y G L Kirby by ilikepizza107
+34 -  Y G L Kirby by ilikepizza107
 
 FOX
 
@@ -60,6 +60,7 @@ META KNIGHT
 PIT
 
 ZERO SUIT SAMUS
+06 - Bee ZSS by ilikepizza107
 
 OLIMAR
 
