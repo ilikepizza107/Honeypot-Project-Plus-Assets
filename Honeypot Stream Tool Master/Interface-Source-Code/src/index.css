@@ -193,18 +193,6 @@ input[type="text"] {
     outline: none;
 }
 
-#p1NScore, #p2NScore {
-  float: left;
-  min-width: 60px;
-  max-width: 80px;
-  width: 60px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  outline: none;
-}
-
 .pColor {
   float: left;
   width: 30px;
@@ -303,14 +291,6 @@ input[type="text"] {
   display: none;
   font-size: 13px;
   padding-left: 5px;
-}
-
-#p1ScoreTicks{
-  display: none;
-}
-
-#p2ScoreTicks{
-  display: none;
 }
 
 .wlBox {

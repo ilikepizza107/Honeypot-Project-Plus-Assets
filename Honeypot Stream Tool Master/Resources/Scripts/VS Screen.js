@@ -9,8 +9,8 @@ const introDelay = .5; //all animations will get this delay when the html loads 
 //max text sizes (used when resizing back)
 const roundSize = '54px';
 const tournamentSize = '80px';
-const casterSize = '1px';
-const twitterSize = '1px';
+const casterSize = '36px';
+const twitterSize = '26px';
 
 //to avoid the code constantly running the same method over and over
 let p1CharacterPrev, p1SkinPrev, p1ColorPrev;
@@ -574,5 +574,9 @@ async function updateChar(pCharacter, pSkin, color, charID, direction) {
 	//to position the character
 	charEL.style.left = charPos[0] + "px";
 	charEL.style.top = charPos[1] + "px";
-	charEL.style.transform = "scale(" + charPos[2] + ")";
+    if (charEL == document.getElementById("charP1")) {
+        charEL.style.transform = "scale(" + charPos[2] + ") rotateY(0deg)";
+    } else {
+        charEL.style.transform = "scale(" + charPos[2] + ") rotateY(0deg)";
+    }
 }

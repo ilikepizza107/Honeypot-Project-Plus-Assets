@@ -7,8 +7,8 @@ const fadeOutTime = .2;
 let introDelay = .8; //all animations will get this delay when the html loads (use this so it times with your transition)
 
 //to avoid the code constantly running the same method over and over
-let p1CharacterPrev, p1SkinPrev, p1ScorePrev, p1ColorPrev, p1wlPrev;
-let p2CharacterPrev, p2SkinPrev, p2ScorePrev, p2ColorPrev, p2wlPrev;
+let p1CharacterPrev, p1SkinPrev, p1StatePrev, p1ScorePrev, p1ColorPrev, p1wlPrev;
+let p2CharacterPrev, p2SkinPrev, p2StatePrev, p2ScorePrev, p2ColorPrev, p2wlPrev;
 let bestOfPrev;
 
 //max text sizes (used when resizing back)
@@ -42,6 +42,8 @@ function init() {
 async function getData(scInfo) {
 	let p1Name = scInfo['p1Name'];
 	let p1Team = scInfo['p1Team'];
+	let p1Pron = scInfo['p1Pron'];
+	let p1State = scInfo['p1State'];
 	let p1Score = scInfo['p1Score'];
 	let p1Color = scInfo['p1Color'];
 	let p1Character = scInfo['p1Character'];
@@ -50,6 +52,8 @@ async function getData(scInfo) {
 	
 	let p2Name = scInfo['p2Name'];
 	let p2Team = scInfo['p2Team'];
+	let p2Pron = scInfo['p2Pron'];
+	let p2State = scInfo['p2State'];
 	let p2Score = scInfo['p2Score'];
 	let p2Color = scInfo['p2Color'];
 	let p2Character = scInfo['p2Character'];
@@ -148,7 +152,7 @@ async function getData(scInfo) {
 
 		//finally out of the intro, now lets start with player 1 first
 		//update player name and team name texts
-		updatePlayerName('p1Wrapper', 'p1Name', 'p1Team', p1Name, p1Team);
+		updatePlayerName('p1Wrapper', 'p1Name', 'p1Team', 'p1Pron', p1Name, p1Team, p1Pron);
 		//sets the starting position for the player text, then fades in and moves the p1 text to the next keyframe
 		gsap.fromTo("#p1Wrapper", 
 			{x: -pMove}, //from
@@ -161,6 +165,13 @@ async function getData(scInfo) {
 		//save the character/skin so we run the character change code only when this doesnt equal to the next
 		p1CharacterPrev = p1Character;
 		p1SkinPrev = p1Skin;
+
+		//set the state image for the player
+		await updateState(p1State, 'p1State');
+		//when the image finishes loading, fade-in-move the images to the overlay
+		initStateFade("#p1State", -pMove);
+		//save the state so we run the state change code only when this doesnt equal to the next
+		p1StatePrev = p1State;
 
 		//if its grands, we need to show the [W] and/or the [L] on the players
 		updateWL(p1WL, "1");
@@ -180,7 +191,7 @@ async function getData(scInfo) {
 
 
 		//took notes from player 1? well, this is exactly the same!
-		updatePlayerName('p2Wrapper', 'p2Name', 'p2Team', p2Name, p2Team);
+		updatePlayerName('p2Wrapper', 'p2Name', 'p2Team', 'p2Pron', p2Name, p2Team, p2Pron);
 		gsap.fromTo("#p2Wrapper", 
 			{x: pMove},
 			{delay: introDelay+.1, x: 0, opacity: 1, ease: "power2.out", duration: fadeInTime});
@@ -189,6 +200,10 @@ async function getData(scInfo) {
 		initCharaFade("#p2Character", "#sagaIconP2");
 		p2CharacterPrev = p2Character;
 		p2SkinPrev = p2Skin;
+
+		await updateState(p2State, 'p2State');
+		initStateFade("#p2State", -pMove);
+		p2StatePrev = p2State;
 
 		updateWL(p2WL, "2");
 		p2wlPrev = p2WL;
@@ -271,11 +286,12 @@ async function getData(scInfo) {
 		
 		//player 1 time!
 		if (document.getElementById('p1Name').textContent != p1Name ||
-			document.getElementById('p1Team').textContent != p1Team) {
+			document.getElementById('p1Team').textContent != p1Team ||
+			document.getElementById('p1Pron').textContent != p1Pron) {
 			//move and fade out the player 1's text
 			fadeOutMove("#p1Wrapper", -pMove, () => {
 				//now that nobody is seeing it, quick, change the text's content!
-				updatePlayerName('p1Wrapper', 'p1Name', 'p1Team', p1Name, p1Team);
+				updatePlayerName('p1Wrapper', 'p1Name', 'p1Team', 'p1Pron', p1Name, p1Team, p1Pron);
 				//fade the name back in with a sick movement
 				fadeInMove("#p1Wrapper");
 			});
@@ -292,6 +308,18 @@ async function getData(scInfo) {
 			});
 			p1CharacterPrev = p1Character;
 			p1SkinPrev = p1Skin;
+		}
+
+		//player 1's state flag change
+		if (p1StatePrev != p1State) {
+			//fade out the images while also moving them because that always looks cool
+			fadeOutState("#p1State", -pMove, async () => {
+				//now that nobody can see them, lets change the images!
+				updateState(p1State, 'p1State'); //will return scale
+				//and now, fade them in
+				fadeInState("#p1State");
+			});
+			p1StatePrev = p1State;
 		}
 
 		//the [W] and [L] status for grand finals
@@ -336,9 +364,10 @@ async function getData(scInfo) {
 
 		//did you pay attention earlier? Well, this is the same as player 1!
 		if (document.getElementById('p2Name').textContent != p2Name ||
-			document.getElementById('p2Team').textContent != p2Team){
+			document.getElementById('p2Team').textContent != p2Team ||
+			document.getElementById('p2Pron').textContent != p2Pron) {
 			fadeOutMove("#p2Wrapper", pMove, () => {
-				updatePlayerName('p2Wrapper', 'p2Name', 'p2Team', p2Name, p2Team);
+				updatePlayerName('p2Wrapper', 'p2Name', 'p2Team', 'p2Pron', p2Name, p2Team, p2Pron);
 				fadeInMove("#p2Wrapper");
 			});
 		}
@@ -350,6 +379,14 @@ async function getData(scInfo) {
 			});
 			p2CharacterPrev = p2Character;
 			p2SkinPrev = p2Skin;
+		}
+
+		if (p2StatePrev != p2State) {
+			fadeOutState("#p2State", -pMove, async () => {
+				updateState(p2State, 'p2State');
+				fadeInState("#p2State");
+			});
+			p2StatePrev = p2State;
 		}
 
 		if (p2wlPrev != p2WL) {
@@ -616,13 +653,16 @@ function updateSocial(mainSocial, mainText, mainBox, otherSocial, otherBox) {
 }
 
 //player text change
-function updatePlayerName(wrapperID, nameID, teamID, pName, pTeam) {
+function updatePlayerName(wrapperID, nameID, teamID, pronID, pName, pTeam, pPron) {
 	const nameEL = document.getElementById(nameID);
 	nameEL.style.fontSize = '50px'; //set original text size
 	nameEL.textContent = pName; //change the actual text
 	const teamEL = document.getElementById(teamID);
 	teamEL.style.fontSize = '30px';
 	teamEL.textContent = pTeam;
+	const pronEL = document.getElementById(pronID);
+	pronEL.style.fontSize = '30px';
+	pronEL.textContent = pPron;
 	resizeText(document.getElementById(wrapperID)); //resize if it overflows
 }
 
@@ -667,6 +707,11 @@ function fadeOutChara (itemID, sagaID, move, funct) {
 	gsap.to(sagaID, {opacity: 0, ease: "power1.in", duration: fadeOutTime});
 }
 
+//fade out but for state flags
+function fadeOutState(stateID, move, funct) {
+	gsap.to(stateID, { x: -move, opacity: 0, ease: "power1.in", duration: fadeOutTime, onComplete: funct });
+}
+
 //fade in
 function fadeIn(itemID) {
 	gsap.to(itemID, {delay: .2, opacity: 1, duration: fadeInTime});
@@ -685,6 +730,11 @@ function fadeInChara(itemID, sagaID, move = pMove) {
 		{delay: .3, x: 0, opacity: .3, ease: "power1.in", duration: fadeOutTime});
 }
 
+//fade in but for the state flags
+function fadeInState(stateID) {
+	gsap.to(stateID, { delay: .2, x: 0, opacity: 1, ease: "power2.out", duration: fadeInTime });
+}
+
 //fade in for the characters when first loading
 function initCharaFade(charaID, sagaID, move = pMove) {
 	gsap.fromTo(charaID,
@@ -693,6 +743,13 @@ function initCharaFade(charaID, sagaID, move = pMove) {
 	gsap.fromTo(sagaID,
 		{x: move},
 		{delay: introDelay+.2, x: 0, opacity: .3, ease: "power2.out", duration: fadeInTime});
+}
+
+//fade in for the states when first loading
+function initStateFade(stateID, move = pMove) {
+	gsap.fromTo(stateID,
+		{ x: move },
+		{ delay: introDelay, x: 0, opacity: 1, ease: "power2.out", duration: fadeInTime });
 }
 
 //played when loading the html
@@ -738,7 +795,7 @@ function updateWL(pWL, playerNum) {
 //text resize, keeps making the text smaller until it fits
 function resizeText(textEL) {
 	const childrens = textEL.children;
-	while (textEL.scrollWidth > textEL.offsetWidth || textEL.scrollHeight > textEL.offsetHeight) {
+	while (textEL.scrollWidth > textEL.offsetWidth) {
 		if (childrens.length > 0) { //for team+player texts
 			Array.from(childrens).forEach(function (child) {
 				child.style.fontSize = getFontSize(child);
@@ -760,8 +817,8 @@ function getHexColor(color) {
 			return "#E90004";
 		case "Blue":
 			return "#0A69E7";
-		case "Purple":
-			return "#4A217B";
+		case "Yellow":
+			return "#EDAD09";
 		case "Green":
 			return "#0DB321";
 		case "CPU":
@@ -823,4 +880,19 @@ async function updateChar(pCharacter, pSkin, charID, sagaID) {
 	sagaEL.setAttribute('src', 'Resources/Characters/Saga Icons/' + charInfo.saga + '.png')
 	//add a listener to show nothing if the image fails to load
 	if (startup) {sagaEL.addEventListener("error", () => {showNothing(sagaEL)})}
+}
+
+// state flag change
+async function updateState(pState, stateID) {
+	const stateEL = document.getElementById(stateID);
+	//change the image path depending on the state
+	stateEL.setAttribute('src', 'Resources/Overlay/state flags/' + pState + '.png');
+	//add a listener to show the random portrait if the image fails to load
+	if (startup) {stateEL.addEventListener("error", () => {
+			if (stateEL == document.getElementById("p1State")) {
+				stateEL.setAttribute('src', 'Resources/Literally Nothing.png');
+			} else {
+				stateEL.setAttribute('src', 'Resources/Literally Nothing.png');
+			}
+		})}
 }
