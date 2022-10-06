@@ -41,8 +41,12 @@ BOWSER
 PEACH
 
 ZELDA
+30 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model
+31 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model
 
 SHEIK
+30 - KWAM Sheik by ilikepizza107
+31 - RoSheik by jetfantastic
 
 ICE CLIMBERS
 
@@ -53,6 +57,8 @@ MR. GAME & WATCH
 FALCO
 
 GANONDORF
+25 - Che Ganondorf by DHS7
+40 - joey Ganondorf by DHS7
 
 META KNIGHT
 24 - Kulprit Meta Knight by ilikepizza107
@@ -117,7 +123,7 @@ PICTOCHAT
 Base - P+BR Pictochat by Motobug
 
 POKEMON STADIUM 2
-Base - Honeypto PS2 by ilikepizza107, with credit to Nezha the Scout, soopercool101, Layell, Dranakar, Hallow, ZugZug, MarioDox, and mawwwk for the model, as well as WTails
+Base - Honeypot PS2 by ilikepizza107, with credit to Nezha the Scout, soopercool101, Layell, Dranakar, Hallow, ZugZug, MarioDox, and mawwwk for the model, as well as WTails
 Z - Homerun Stadium by MarioDox [https://gamebanana.com/mods/297636]
 
 PIRATE SHIP
