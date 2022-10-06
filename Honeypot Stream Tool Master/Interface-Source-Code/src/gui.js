@@ -31,10 +31,12 @@ const p1NameInp = document.getElementById('p1Name');
 const p1TagInp = document.getElementById('p1Tag');
 const p1PronInp = document.getElementById('p1Pron');
 const p1StateInp = document.getElementById('p1State');
+const p1NScoreInp = document.getElementById('p1NScore');
 const p2NameInp = document.getElementById('p2Name');
 const p2TagInp = document.getElementById('p2Tag');
 const p2PronInp = document.getElementById('p2Pron');
 const p2StateInp = document.getElementById('p2State');
+const p2NScoreInp = document.getElementById('p2NScore');
 
 const charImgP1 = document.getElementById('p1CharImg');
 const charImgP2 = document.getElementById('p2CharImg');
@@ -126,6 +128,9 @@ function init() {
 
     p1PronInp.addEventListener("input", resizeInput);
     p2PronInp.addEventListener("input", resizeInput);
+	
+	p1NScoreInp.addEventListener("input", resizeInput);
+    p2NScoreInp.addEventListener("input", resizeInput);
 
     //set click listeners to change the "best of" status
     document.getElementById("bo3Div").addEventListener("click", changeBestOf);
@@ -666,28 +671,34 @@ function swap() {
     let tempP1Team = p1TagInp.value;
     let tempP1Pron = p1PronInp.value;
 	let tempP1State = p1StateInp.value;
+    let tempP1NScore = p1NScoreInp.value;
     let tempP2Name = p2NameInp.value;
     let tempP2Team = p2TagInp.value;
     let tempP2Pron = p2PronInp.value;
 	let tempP2State = p2StateInp.value;
+    let tempP2NScore = p2NScoreInp.value;
 
     p1NameInp.value = tempP2Name;
     p1TagInp.value = tempP2Team;
     p1PronInp.value = tempP2Pron;
 	p1StateInp.value = tempP2State;
+    p1NScoreInp.value = tempP2NScore;
     p2NameInp.value = tempP1Name;
     p2TagInp.value = tempP1Team;
     p2PronInp.value = tempP1Pron;
 	p2StateInp.value = tempP1State;
+    p2NScoreInp.value = tempP1NScore;
 
     changeInputWidth(p1NameInp);
     changeInputWidth(p1TagInp);
     changeInputWidth(p1PronInp);
 	changeInputWidth(p1StateInp);
+    changeInputWidth(p1NScoreInp);
     changeInputWidth(p2NameInp);
     changeInputWidth(p2TagInp);
     changeInputWidth(p2PronInp);
 	changeInputWidth(p2StateInp);
+    changeInputWidth(p2NScoreInp);
 
 
     let tempP1Char = charP1;
@@ -716,19 +727,23 @@ function clearPlayers() {
     p1NameInp.value = "";
     p1PronInp.value = "";
 	p1StateInp.value = "";
+    p1NScoreInp.value = "";
     p2TagInp.value = "";
     p2NameInp.value = "";
     p2PronInp.value = "";
 	p2StateInp.value = "";
+    p2NScoreInp.value = "";
     roundInp.value = "";
     changeInputWidth(p1TagInp);
     changeInputWidth(p1NameInp);
     changeInputWidth(p1PronInp);
 	changeInputWidth(p1StateInp);
+    changeInputWidth(p1NScoreInp);
     changeInputWidth(p2TagInp);
     changeInputWidth(p2NameInp);
     changeInputWidth(p2PronInp);
 	changeInputWidth(p2StateInp);
+    changeInputWidth(p2NScoreInp);
 
     //reset characters to random
     document.getElementById('p1CharSelector').setAttribute('src', charPath + '/CSS/Random.png');
@@ -818,7 +833,7 @@ function writeScoreboard() {
         p1Team: p1TagInp.value,
         p1Pron: p1PronInp.value,
 		p1State: p1StateInp.value,
-        p1Score: checkScore(p1Win1, p1Win2, p1Win3),
+        p1NScore: p1NScoreInp.value,
         p1Character: charP1,
         p1Skin: skinP1,
         p1Color: colorP1,
@@ -827,7 +842,7 @@ function writeScoreboard() {
         p2Team: p2TagInp.value,
         p2Pron: p2PronInp.value,
 		p2State: p2StateInp.value,
-        p2Score: checkScore(p2Win1, p2Win2, p2Win3),
+        p2NScore: p2NScoreInp.value,
         p2Character: charP2,
         p2Skin: skinP2,
         p2Color: colorP2,
@@ -851,6 +866,9 @@ function writeScoreboard() {
     //simple .txt files
     fs.writeFileSync(mainPath + "/Simple Texts/Player 1.txt", p1NameInp.value);
     fs.writeFileSync(mainPath + "/Simple Texts/Player 2.txt", p2NameInp.value);
+
+    fs.writeFileSync(mainPath + "/Simple Texts/Score 1.txt", p1NScoreInp.value);
+    fs.writeFileSync(mainPath + "/Simple Texts/Score 2.txt", p2NScoreInp.value);
 	
     fs.writeFileSync(mainPath + "/Simple Texts/Round.txt", roundInp.value);
     fs.writeFileSync(mainPath + "/Simple Texts/Tournament Name.txt", document.getElementById('tournamentName').value);

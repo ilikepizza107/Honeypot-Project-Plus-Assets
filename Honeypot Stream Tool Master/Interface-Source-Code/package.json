@@ -1,8 +1,8 @@
 {
   "name": "project-st-gui",
   "productName": "Project+ Stream Tool",
-  "version": "1.1.0",
-  "description": "An electron interface for Project+ tournament streams.",
+  "version": "1.0.0",
+  "description": "An electron interface for Ultimate tournament streams.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -15,8 +15,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "beto & ilikepizza107",
-    "email": "ilikepizza107@gmail.com"
+    "name": "beto",
+    "email": "robertofiore2712@gmail.com"
   },
   "license": "MIT",
   "config": {
