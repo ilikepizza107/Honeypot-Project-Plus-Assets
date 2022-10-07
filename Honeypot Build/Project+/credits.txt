@@ -37,6 +37,7 @@ PIKACHU
 LUIGI
 
 CAPTAIN FALCON
+35 - ORLY Captain Falcon by Wyld
 
 NESS
 
