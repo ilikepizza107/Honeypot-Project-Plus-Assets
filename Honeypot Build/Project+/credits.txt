@@ -5,6 +5,9 @@ PSA
 PSA edits for Fierce Diety Link by ilikepizza107
  -PSA Edited: Sub Routine 0x9028
 
+PSA edits for pink Charizard fire by Extreme, with edits by ilikepizza107 [https://forums.kc-mm.com/Gallery/BrawlView.php?Number=221032]
+ -PSA Edited: Sub Action 1, GFX; Sub Action 19, Main; Sub Action 19, GFX; Sub Action 3C, Main; Sub Action 3C, GFX; Sub Action 55, Main; Sub Action 58, Main; Sub Action 58, GFX; Sub Action 62, Main; Sub Action 62, GFX; Sub Action 63, Main; Sub Action 63, GFX; Sub Action 64, Main; Sub Action 74, Main; Sub Action 74, GFX; Sub Action 75, Main; Sub Action 75, GFX; Sub Action DC, Main; Sub Action 1C2, GFX; Sub Action 1C4, GFX; Sub Action 1D5, Main; Sub Action 1D5, GFX; Sub Action 1D7, Main; Sub Action 1D8, Main; 1D8, GFX; Sub Action 1D9, GFX; Sub Action 1DA, GFX; Sub Routine 0x247F0, Sub Routine 0x251D0; Sub Routine 0x265A8
+
 
 ################
 SKINS
@@ -83,6 +86,7 @@ DIDDY KONG
 MEWTWO
 
 CHARIZARD
+10 - Big Doinks Charizard by ilikepizza107
 
 SQUIRTLE
 
@@ -92,7 +96,7 @@ DEDEDE
 30 - Robo D3 by ShadowLuigi~NG~ [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=207980 (Download link dead)]
 
 LUCARIO
-AltR - Midnight Guard by NeoZoa
+AltR - Midnight Guard by NeoZoa [
 
 IKE
 07 - tia Ike by Kurukato
