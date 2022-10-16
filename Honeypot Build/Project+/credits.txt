@@ -160,4 +160,8 @@ MENUS
 
 New "Ready To Fight!" Model by Xenthos
 
+New MenSelchrBg_TopN Model + Animation by mawwwk
+
+New MenSelMapBg Model + Animation by mawwwk
+
 Player 3 Purple colors by Bird
