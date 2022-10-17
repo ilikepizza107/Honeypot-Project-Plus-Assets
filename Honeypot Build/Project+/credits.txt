@@ -43,14 +43,15 @@ CAPTAIN FALCON
 35 - ORLY Captain Falcon by Wyld
 
 NESS
+30 - Not Chris Ness by ilikepizza107, with credit to Mecha Krizalid for the model [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=217901]
 
 BOWSER
 
 PEACH
 
 ZELDA
-30 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model
-31 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model
+30 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
+31 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
 
 SHEIK
 30 - KWAM Sheik by ilikepizza107
@@ -96,7 +97,7 @@ DEDEDE
 30 - Robo D3 by ShadowLuigi~NG~ [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=207980 (Download link dead)]
 
 LUCARIO
-AltR - Midnight Guard by NeoZoa [
+AltR - Midnight Guard by NeoZoa [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=6702]
 
 IKE
 07 - tia Ike by Kurukato
@@ -127,7 +128,7 @@ WARIO MAN
 BOWSER
 
 KNUCKLES
-
+30 - Treasure Hunter Knuckles by SJS, StarWaffle, and tryptech; Treasure Hunter Knuckles Cosmetics by Chucklez [https://gamebanana.com/mods/247350]
 
 ########################
 STAGES [ILPM Toggle]
