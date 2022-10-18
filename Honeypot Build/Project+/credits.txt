@@ -74,8 +74,8 @@ META KNIGHT
 
 PIT
 40 - zPit Blue by SJS, Star
-41 - zPit Red by SJS, Star
-42 - zPit Green by SJS, Star
+41 - zPit Green by SJS, Star
+42 - zPit Red by SJS, Star
 
 ZERO SUIT SAMUS
 06 - Bee ZSS by ilikepizza107
@@ -83,7 +83,10 @@ ZERO SUIT SAMUS
 OLIMAR
 
 LUCAS
-35 - Shadowhawke Lucas by SJS
+40 - zLucas Blue by SJS, Star
+41 - zLucas Green by SJS, Star
+42 - zLucas Red by SJS, Star
+43 - Shadowhawke Lucas by SJS
 
 DIDDY KONG
 
