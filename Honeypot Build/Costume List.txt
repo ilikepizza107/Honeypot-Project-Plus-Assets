@@ -1,0 +1,85 @@
+################
+SKINS
+################
+
+MARIO
+40 - Bee Mario by SJS [https://gamebanana.com/mods/247079]
+
+LINK
+25 - SgtPingwen Link
+26 - Fierce Diety Link
+
+KIRBY
+24 - influenza Kirby
+34 -  Y G L Kirby
+
+FOX
+09 - Zoey Blue Fox
+10 - Zoey Green Fox
+11 - Silver Fox
+
+CAPTAIN FALCON
+35 - ORLY Captain Falcon
+
+NESS
+30 - Not Chris Ness
+
+ZELDA
+30 - KWAM Zelda
+31 - Tuck Zelda
+32 - Evil Lesbian Zelda
+
+SHEIK
+30 - KWAM Sheik
+31 - RoSheik
+32 - Evil Lesbian Sheik
+
+GANONDORF
+25 - Che Ganondorf
+40 - joey Ganondorf
+
+META KNIGHT
+24 - Kulprit Meta Knight
+
+PIT
+40 - zPit Blue
+41 - zPit Green
+42 - zPit Red
+
+ZERO SUIT SAMUS
+06 - Bee ZSS
+
+OLIMAR
+
+LUCAS
+40 - zLucas Blue
+41 - zLucas Green
+42 - zLucas Red
+43 - Shadowhawke Lucas
+
+CHARIZARD
+10 - Big Doinks Charizard
+
+DEDEDE
+30 - Robo D3
+
+LUCARIO
+AltR - Midnight Guard
+
+IKE
+07 - tia Ike
+20 - Cobalt Legacy Ike
+AltZ - Guts
+
+R.O.B.
+07 - Comb R.O.B.
+
+WOLF
+Tag 'EXE' - S̸̲̔̓o̴̦̲̭͙̩̽́̎͊̈́̓ň̷̲͖͗͊̔̅ï̵͈̪̽͘c̷̡̛̺͉̱̥̔̍̑͗̀.̷̡̛̺̙̼͓̀̏̋͠͠e̵̢͕̺̗̤̬̽̔̕͝͝͠x̴̣̜̙̦̃͗̿̚̚é̶͈͎̲̤̉͋̏ ̴̨̘̟͌͆͛͆̊͘a̷̛̻͍̐̇̿̚͜l̶̘̈͐t̴̛͓͉͈̰̊̏̀̐ ̶̥͙̥͍́̐̔͆́̀͜f̶̢͋̋̈́ố̶̫̅̐r̴̼̋̌̃ ̵̙̮̑̀̂̂̕͠W̴̤̖̮͖̞̦̄͠o̶̲͍̜̦̯̳͛̅̽͝ḷ̷̖̋͝f̸̢̱̭̑͗̎̕ 
+
+SNAKE
+25 - FlashingFire Snake
+
+KNUCKLES
+30 - Treasure Hunter Knuckles
+AltZ - Metal Knuckles by SJS

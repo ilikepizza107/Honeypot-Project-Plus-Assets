@@ -52,10 +52,12 @@ PEACH
 ZELDA
 30 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
 31 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
+32 - Evil Lesbian Zelda by Evil Lesbian, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
 
 SHEIK
 30 - KWAM Sheik by ilikepizza107
 31 - RoSheik by jetfantastic [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=213577]
+32 - Evil Lesbian Sheik by Evil Lesbian, ilikepizza107
 
 ICE CLIMBERS
 
@@ -135,6 +137,7 @@ BOWSER
 
 KNUCKLES
 30 - Treasure Hunter Knuckles by SJS, StarWaffle, and tryptech; Treasure Hunter Knuckles Cosmetics by Chucklez [https://gamebanana.com/mods/247350]
+AltZ - Metal Knuckles by SJS [https://gamebanana.com/mods/323365]
 
 ########################
 STAGES [ILPM Toggle]
