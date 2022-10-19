@@ -49,8 +49,6 @@ PIT
 ZERO SUIT SAMUS
 06 - Bee ZSS
 
-OLIMAR
-
 LUCAS
 40 - zLucas Blue
 41 - zLucas Green
@@ -67,7 +65,6 @@ LUCARIO
 AltR - Midnight Guard
 
 IKE
-07 - tia Ike
 20 - Cobalt Legacy Ike
 AltZ - Guts
 
@@ -76,9 +73,6 @@ R.O.B.
 
 WOLF
 Tag 'EXE' - S̸̲̔̓o̴̦̲̭͙̩̽́̎͊̈́̓ň̷̲͖͗͊̔̅ï̵͈̪̽͘c̷̡̛̺͉̱̥̔̍̑͗̀.̷̡̛̺̙̼͓̀̏̋͠͠e̵̢͕̺̗̤̬̽̔̕͝͝͠x̴̣̜̙̦̃͗̿̚̚é̶͈͎̲̤̉͋̏ ̴̨̘̟͌͆͛͆̊͘a̷̛̻͍̐̇̿̚͜l̶̘̈͐t̴̛͓͉͈̰̊̏̀̐ ̶̥͙̥͍́̐̔͆́̀͜f̶̢͋̋̈́ố̶̫̅̐r̴̼̋̌̃ ̵̙̮̑̀̂̂̕͠W̴̤̖̮͖̞̦̄͠o̶̲͍̜̦̯̳͛̅̽͝ḷ̷̖̋͝f̸̢̱̭̑͗̎̕ 
-
-SNAKE
-25 - FlashingFire Snake
 
 KNUCKLES
 30 - Treasure Hunter Knuckles
