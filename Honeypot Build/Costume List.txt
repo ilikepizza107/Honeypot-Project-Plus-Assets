@@ -3,7 +3,7 @@ SKINS
 ################
 
 MARIO
-40 - Bee Mario by SJS [https://gamebanana.com/mods/247079]
+40 - Bee Mario
 
 LINK
 25 - SgtPingwen Link
@@ -21,9 +21,6 @@ FOX
 CAPTAIN FALCON
 35 - ORLY Captain Falcon
 
-NESS
-30 - Not Chris Ness
-
 ZELDA
 30 - KWAM Zelda
 31 - Tuck Zelda
@@ -39,7 +36,6 @@ GANONDORF
 40 - joey Ganondorf
 
 META KNIGHT
-24 - Kulprit Meta Knight
 
 PIT
 40 - zPit Blue
@@ -76,4 +72,4 @@ Tag 'EXE' - S̸̲̔̓o̴̦̲̭͙̩̽́̎͊̈́̓ň̷̲͖͗͊̔̅ï̵͈̪̽͘c̷�
 
 KNUCKLES
 30 - Treasure Hunter Knuckles
-AltZ - Metal Knuckles by SJS
+AltZ - Metal Knuckles

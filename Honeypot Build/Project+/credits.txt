@@ -43,7 +43,6 @@ CAPTAIN FALCON
 35 - ORLY Captain Falcon by Wyld
 
 NESS
-30 - Not Chris Ness by ilikepizza107, with credit to Mecha Krizalid for the model [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=217901]
 
 BOWSER
 
@@ -72,7 +71,6 @@ GANONDORF
 40 - joey Ganondorf by DHS7
 
 META KNIGHT
-24 - Kulprit Meta Knight by ilikepizza107
 
 PIT
 40 - zPit Blue by SJS, Star
@@ -171,5 +169,9 @@ New "Ready To Fight!" Model by Xenthos
 New MenSelchrBg_TopN Model + Animation by mawwwk
 
 New MenSelMapBg Model + Animation by mawwwk
+
+"Versus", "Doubles", "Funny Mode", "Doubles" (Rainbow) textures by RosiYY
+
+CSS background by RosiYY and ilikepizza107
 
 Player 3 Purple colors by Bird
