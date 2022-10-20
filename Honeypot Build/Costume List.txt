@@ -35,8 +35,6 @@ GANONDORF
 25 - Che Ganondorf
 40 - joey Ganondorf
 
-META KNIGHT
-
 PIT
 40 - zPit Blue
 41 - zPit Green
