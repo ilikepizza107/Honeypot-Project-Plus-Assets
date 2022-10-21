@@ -901,7 +901,7 @@ function getHexColor(color) {
 		case "Blue":
 			return "#0A69E7";
 		case "Purple":
-			return "#4A217B";
+			return "#622CA3";
 		case "Green":
 			return "#0DB321";
 		case "CPU":

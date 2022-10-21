@@ -10,8 +10,6 @@ Non HTML-based graphics slides
 -cam+game standby
 -BRB
 
-VOD title batch script
-
 Add the HTML files to obs by dragging and dropping the files, or by adding a browser source
 -SOURCE PROPERTIES TO CHANGE FOR EACH OVERLAY (https://github.com/Readek/Melee-Stream-Tool#setup-guide):
 --turn on 'refresh browser when scene becomes active', another helpful one if you want to save computer resources 'shut down source when not visible'
@@ -24,10 +22,6 @@ Use the 'Project+ Stream Tool 1.0.0.exe' file to operate the scoreboard
 --intro gives a transition overlay with player names on first game, and round number after the first game
 -DUBS: both players from 1 team should go into one of the player slots (Ex: johnny & jerry), other team goes into the other player slot 
 -DUBS: color should match team color. tag, pronoun, and character field not used in dubs overlay
---if you are using the copytitle script included, set characters to random
-
-Double click the 'copytitle.bat' file to copy the current game info in the scoreboard to your clipboard
--this can be used to easily save vod titles to a text file for later file renaming and vod upload
 
 If you dont have custom transitions already, use the ones given in the folder Resources/OBS Transitions.
 -Set these up as new stinger transitions in obs, and then set the transition point to 350 ms (https://github.com/Readek/Melee-Stream-Tool#setup-guide)
