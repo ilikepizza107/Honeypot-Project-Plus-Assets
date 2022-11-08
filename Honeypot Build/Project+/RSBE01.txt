@@ -50,6 +50,10 @@ PULSE
 * E2000002 00000000
 
 .include Source/Extras/BootToCSSv5.1.asm
+###############################
+Skip strap screen [PyotrLuzhin]
+###############################
+* 046CADE8 48000298
 
 #####################################
 P3 on results screen is purple [Bird]
