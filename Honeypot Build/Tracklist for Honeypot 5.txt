@@ -4,6 +4,12 @@ Crazy Chili Dog - Street Fighter III 3rd Strike
 Killing Moon - Street Fighter III 3rd Strike
 Psyche Out - Street Fighter III 3rd Strike
 
+CASTLE SIEGE
+
+Eternal Struggle - Soulcalibur II
+Glacial Colosseum - Soulcalibur IV
+Sword of the Patriot - Soulcalibur II
+
 DREAM LAND
 
 Purity Strictly - Under Night InBirth
@@ -16,15 +22,17 @@ Fire's Last Hope - Rivals Of Aether
 Marionette - Guilty Gear Xrd -Sign-
 Theme of Vergil - Ultimate Marvel vs Capcom 3
 
-FRIGATE HUSK
-Genesis Stage / Dural Theme - Virtua Fighter 5: Ultimate Showdown
-The Last Survivor (Theme of Shun) - Virtua Fighter 4
-Watch Out (Theme of Jacky) - Virtua Fighter 4
+HYRULE MEADOWS
 
-LUIGI'S MANSION
 Beyond Memories - FateUnlimited Codes
 Mighty Wind - FateUnlimited Codes
 Mission Battle - FateUnlimited Codes
+
+LUIGI'S MANSION
+
+Genesis Stage / Dural Theme - Virtua Fighter 5: Ultimate Showdown
+The Last Survivor (Theme of Shun) - Virtua Fighter 4
+Watch Out (Theme of Jacky) - Virtua Fighter 4
 
 MENU
 
@@ -43,11 +51,6 @@ SMASHVILLE
 Good Manners and Customs - Guilty Gear XX Accent Core Plus
 Home Sweet Grave - Guilty Gear Isuka
 Pillars of the Underworld - Guilty Gear
-
-TEMPLE OF TIME
-Eternal Struggle - Soulcalibur II
-Glacial Colosseum - Soulcalibur IV
-Sword of the Patriot - Soulcalibur II
 
 YOSHI'S STORY
 
