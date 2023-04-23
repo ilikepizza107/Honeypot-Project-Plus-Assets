@@ -18,7 +18,7 @@
 .GOTO->SkipStageTables
 
 TABLE_1:
-	byte[13] |
+	byte[12] |
 0x0C, | # Yoshi's Island
 0x09, | # Hyrule Castle
 0x23, | # Dream Land
@@ -27,7 +27,6 @@ TABLE_1:
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
 0x03, | # Luigi's Mansion
-0x2B, | # Training Room
 0x2B, | # Training Room
 0x2B, | # Training Room
 0x2B, | # Training Room
@@ -120,7 +119,7 @@ half[62] |	# Stage Count + 2
 SkipStageTables:
 .RESET
 * 20523400 00000000 # If 80523400 is equal to 0
-byte 13 @ $806B929C # Page 1
+byte 12 @ $806B929C # Page 1
 byte 28 @ $806B92A4 # Page 2
 byte 23 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
