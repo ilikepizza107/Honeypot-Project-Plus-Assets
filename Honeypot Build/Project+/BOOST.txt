@@ -5,6 +5,12 @@
 op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
+#####################################
+P3 on results screen is purple [Bird]
+#####################################
+* 02408A2E 0000B081
+* 02408A30 0000FFA0
+
 .include Source/LegacyTE/Replays.asm
 .include Source/Project+/StageFiles.asm
 .include Source/Project+/CustomRequirements.asm
