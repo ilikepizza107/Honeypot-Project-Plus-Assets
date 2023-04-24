@@ -2,7 +2,7 @@
 Set random stagelist based on Code Menu Stagelist setting (2023 Singles) [ilikepizza107]
 ########################################################################################
 * 20523400 00000000 # If Code Menu stagelist is set to 0
-* 20523310 00000000 # If 80523320 is 00000000
+* 20523310 00000000 # If 80523310 is 00000000
 * 04523310 DEADBEEF # Set it to DEADBEEF
 * 04523320 00000000 # Set all other values to 00000000
 * 04523330 00000000
@@ -30,7 +30,7 @@ Set random stagelist based on Code Menu Stagelist setting (2023 Doubles) [ilikep
 Set random stagelist based on Code Menu Stagelist setting (Middle 3) [ilikepizza107]
 #####################################################################################
 * 20523400 00000002 # If Code Menu stagelist is set to 2
-* 20523330 00000000 # If 80523320 is 00000000
+* 20523330 00000000 # If 80523330 is 00000000
 * 04523330 DEADBEEF # Set it to DEADBEEF
 * 04523310 00000000 # Set all other values to 00000000
 * 04523320 00000000
