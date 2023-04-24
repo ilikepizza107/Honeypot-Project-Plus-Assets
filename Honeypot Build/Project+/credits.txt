@@ -81,9 +81,6 @@ META KNIGHT
 24 - Kulprit Meta Knight by ilikepizza107
 
 PIT
-40 - zPit Blue by SJS, Star
-41 - zPit Green by SJS, Star
-42 - zPit Red by SJS, Star
 
 ZERO SUIT SAMUS
 06 - Bee ZSS by ilikepizza107
