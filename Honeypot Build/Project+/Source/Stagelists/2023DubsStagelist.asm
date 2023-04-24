@@ -35,7 +35,8 @@ TABLE_2:
 	byte[28] |
 0x3D, | # Delfino's Secret
 0x18, | # Fountain of Dreams
-0x14, | # Castle Siege
+0x13, | # Castle Siege
+0x04, | # Metal Cavern
 0x20, | # Yoshi's Story
 0x1C, | # Green Hill Zone
 0x1D, | # PictoChat
@@ -52,7 +53,6 @@ TABLE_2:
 0x22, | # Onett
 0x26, | # Big Blue
 0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
 0x07, | # Rumble Falls
 0x25, | # Corneria
 0x27, | # Planet Zebes
@@ -64,7 +64,7 @@ TABLE_2:
 
 
 TABLE_3:
-	byte[24] |
+	byte[23] |
 0x2E, | # Clock Tower
 0x10, | # Spear Pillar
 0x0F, | # Saffron City
@@ -73,7 +73,6 @@ TABLE_3:
 0x17, | # Skyworld
 0x31, | # Dinosaur Land
 0x2D, | # Mario Circuit
-0x04, | # Metal Cavern
 0x16, | # Distant Planet
 0x38, | # Mushroom Kingdom
 0x3B, | # Rainbow Cruise
@@ -121,7 +120,7 @@ SkipStageTables:
 * 20523400 00000001 # If 80523400 is equal to 1
 byte 11 @ $806B929C # Page 1
 byte 28 @ $806B92A4 # Page 2
-byte 24 @ $80496002 # Page 3
+byte 23 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
 byte 60 @ $800AF673 # Stage Count

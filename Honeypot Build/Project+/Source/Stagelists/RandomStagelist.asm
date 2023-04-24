@@ -8,7 +8,7 @@ Set random stagelist based on Code Menu Stagelist setting (2023 Singles) [ilikep
 * 04523330 00000000
 * 04523340 00000000
 * 42000000 90000000 #Set base address to 90000000
-* 0417BE74 04101209 # Brawl stages
+* 0417BE74 04081209 # Brawl stages
 * 0417BE70 00021000 # Melee stages
 * E0000000 80008000
 

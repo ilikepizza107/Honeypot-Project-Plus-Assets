@@ -22,7 +22,7 @@ TABLE_1:
 0x0C, | # Yoshi's Island
 0x09, | # Hyrule Castle
 0x23, | # Dream Land
-0x14, | # Castle Siege
+0x13, | # Castle Siege
 0x1A, | # Smashville
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
@@ -54,8 +54,8 @@ TABLE_2:
 0x19, | # Fourside
 0x22, | # Onett
 0x26, | # Big Blue
+0x0A, | # Metroid Lab/Crateria
 0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
 0x07, | # Rumble Falls
 0x25, | # Corneria
 0x27, | # Planet Zebes
@@ -65,10 +65,9 @@ TABLE_2:
 
 
 TABLE_3:
-	byte[23] |
+	byte[22] |
 0x2E, | # Clock Tower
 0x10, | # Spear Pillar
-0x0A, | # Metroid Lab/Crateria
 0x0F, | # Saffron City
 0x0D, | # Halberd
 0x0B, | # Frigate Orpheon
@@ -121,7 +120,7 @@ SkipStageTables:
 * 20523400 00000002 # If 80523400 is equal to 2
 byte 12 @ $806B929C # Page 1
 byte 28 @ $806B92A4 # Page 2
-byte 23 @ $80496002 # Page 3
+byte 22 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
 byte 60 @ $800AF673 # Stage Count
