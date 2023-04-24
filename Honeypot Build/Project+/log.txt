@@ -283,14 +283,14 @@ Source/Project+/Pause.asm
 	Song Title Displays On Pause Screen [Eon]
 Source/Project+/Collision.asm
 	Raycast ignores Nonetype collision [Eon]
-Source/Extras/Console.asm
-	480p Pixel Fix Patch [leseratte, Eon]
-Source/Extras/UnlockEverything.asm
-	Unlock Everything [eric]
 Source/Stagelists/RandomStagelist.asm
 	Set random stagelist based on Code Menu Stagelist setting (2023 Singles) [ilikepizza107]
 	Set random stagelist based on Code Menu Stagelist setting (2023 Doubles) [ilikepizza107]
 	Set random stagelist based on Code Menu Stagelist setting (Middle 3) [ilikepizza107]
+Source/Extras/UnlockEverything.asm
+	Unlock Everything [eric]
+Source/Extras/Console.asm
+	480p Pixel Fix Patch [leseratte, Eon]
 Source/Extras/More.asm
 AXNextFrame -> VBI Hook Switch After Strap Screen v1.1 [Magus, Sammi-Husky]
 Source/Extras/BootToCSSv5.1.asm
