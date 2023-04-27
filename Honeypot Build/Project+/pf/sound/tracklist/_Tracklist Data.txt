@@ -1,5 +1,5 @@
 ################
-Battlefield.tlst - 11 tracks
+Battlefield.tlst - 14 tracks
 
 	Battlefield (Brawl)
 	X04.brstm (0x26FC)
@@ -37,17 +37,32 @@ Battlefield.tlst - 11 tracks
 	Crazy Chili Dog (Street Fighter III 3rd Strike)
 	Street Fighter\Crazy Chili Dog (Street Fighter III 3rd Strike).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
 
 	Killing Moon (Street Fighter III 3rd Strike)
 	Street Fighter\Killing Moon (Street Fighter III 3rd Strike).brstm
 	Volume: 80
-	Frequency: 100
+	Frequency: 0
 
 	Psyche Out (Street Fighter III 3rd Strike)
 	Street Fighter\Psyche Out (Street Fighter III 3rd Strike).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 20
+
+	The Arena (Persona 4 Ultimax)
+	Persona/The Arena.brstm
+	Volume: 80
+	Frequency: 40
+
+	Prison Labor (Persona 5 Royal)
+	Persona/Prison Labor.brstm
+	Volume: 70
+	Frequency: 40
+
+	Memories of You (P3D Mix)
+	persona\memories of you p3dmix.brstm
+	Volume: 70
+	Frequency: 40
 
 ################
 Battlefield_64.tlst - 1 track
@@ -259,7 +274,7 @@ Candy_Constellation.tlst - 1 track
 	Song delay: -1
 
 ################
-Castle_Siege.tlst - 13 tracks
+Castle_Siege.tlst - 16 tracks
 
 	Theme of Fire Emblem
 	J02.brstm (0x2783)
@@ -308,12 +323,12 @@ Castle_Siege.tlst - 13 tracks
 	Eternal Struggle (Soulcalibur II)
 	Soulcalibur\Eternal Struggle (Soulcalibur II).brstm
 	Volume: 90
-	Frequency: 80
+	Frequency: 0
 
 	Glacial Colosseum (Soulcalibur IV)
 	Soulcalibur\Glacial Colosseum (Soulcalibur IV).brstm
 	Volume: 90
-	Frequency: 80
+	Frequency: 0
 	Song delay: 15
 
 	Sword of the Patriot (Soulcalibur II)
@@ -321,6 +336,21 @@ Castle_Siege.tlst - 13 tracks
 	Volume: 80
 	Frequency: 80
 	Song delay: 10
+
+	Keep Your Faith (Persona 5 Royal)
+	Persona/Keep Your Faith.brstm
+	Volume: 80
+	Frequency: 40
+
+	Will Power (Persona 5)
+	Persona/will power.brstm
+	Volume: 80
+	Frequency: 40
+
+	Master of Tartarus (Persona 3)
+	Persona/master of tartarus.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Castle_Siege_Brawl.tlst - 11 tracks
@@ -675,7 +705,7 @@ Draculas_Castle.tlst - 1 track
 	Frequency: 40
 
 ################
-Dream_Land.tlst - 8 tracks
+Dream_Land.tlst - 11 tracks
 
 	King Dedede's Theme
 	F02.brstm (0x2758)
@@ -701,17 +731,32 @@ Dream_Land.tlst - 8 tracks
 	Purity & Strictly (Under Night InBirth)
 	Under Night InBirth\Purity & Strictly (Under Night InBirth).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
 
 	Sky Scraper High (Under Night InBirth)
 	Under Night InBirth\Sky Scraper High (Under Night InBirth).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
 
 	Snow Sisters (Under Night InBirth)
 	Under Night InBirth\Snow Sisters (Under Night InBirth).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
+
+	Ark (Persona 5)
+	persona/ark.brstm
+	Volume: 90
+	Frequency: 40
+
+	Layer Cake (Persona 5)
+	persona/layer cake.brstm
+	Volume: 100
+	Frequency: 40
+
+	Price - Another Version- (Persona 5)
+	persona/price2.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Dream_Land_64.tlst - 1 track
@@ -763,7 +808,7 @@ Electroplankton.tlst - 1 track
 	Frequency: 40
 
 ################
-Final_Destination.tlst - 7 tracks
+Final_Destination.tlst - 10 tracks
 
 	Final Destination (Super Smash Bros. Melee)
 	W25.brstm (0x2817)
@@ -784,17 +829,32 @@ Final_Destination.tlst - 7 tracks
 	Fire's Last Hope
 	Rivals of Aether\Fire's Last Hope (Rivals of Aether).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
 
 	Marionette (Guilty Gear Xrd -Sign-)
 	Guilty Gear\Marionette (Guilty Gear Xrd -Sign-).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
 
 	Theme of Vergil (Ultimate Marvel vs Capcom 3)
 	Marvel vs Capcom\Theme of Vergil (Ultimate Marvel vs Capcom 3).brstm
-	Volume: 100
-	Frequency: 80
+	Volume: 90
+	Frequency: 10
+
+	Burn My Dread -Last Battle- (Persona 3)
+	persona/burn my dread last.brstm
+	Volume: 75
+	Frequency: 40
+
+	Life Will Change -Inst- (Persona 5)
+	persona/life will change 2.brstm
+	Volume: 80
+	Frequency: 40
+
+	Maid and Pocket Watch Battle... (Persona 3)
+	persona/maid and pocketwatch.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Final_Destination_64.tlst - 1 track
@@ -1078,22 +1138,37 @@ Hornet_Hole.tlst - 1 track
 	Song delay: 144
 
 ################
-Hyrule_Meadows.tlst - 3 tracks
+Hyrule_Meadows.tlst - 6 tracks
 
 	Beyond Memories (FateUnlimited Codes)
 	FateUnlimited Codes\Beyond Memories (FateUnlimited Codes).brstm
 	Volume: 70
-	Frequency: 80
+	Frequency: 10
 
 	Mighty Wind (FateUnlimited Codes)
 	FateUnlimited Codes\Mighty Wind (FateUnlimited Codes).brstm
 	Volume: 75
-	Frequency: 80
+	Frequency: 10
 
 	Mission Battle (FateUnlimited Codes)
 	FateUnlimited Codes\Mission Battle (FateUnlimited Codes).brstm
-	Volume: 80
-	Frequency: 80
+	Volume: 70
+	Frequency: 10
+
+	The Whims of Fate (Persona 5)
+	persona\the whims of fate.brstm
+	Volume: 70
+	Frequency: 40
+
+	Mementos Upper Layer (Persona 5)
+	persona\mementos upper layer.brstm
+	Volume: 90
+	Frequency: 40
+
+	Persona (Persona 3)
+	persona\persona (persona 3).brstm
+	Volume: 85
+	Frequency: 40
 
 ################
 Icicle_Mountain.tlst - 2 tracks
@@ -1174,7 +1249,7 @@ Lethal_League.tlst - 3 tracks
 	Frequency: 80
 
 ################
-Luigis_Mansion.tlst - 5 tracks
+Luigis_Mansion.tlst - 7 tracks
 
 	Luigi's Mansion Theme
 	A09.brstm (0x271C)
@@ -1187,18 +1262,28 @@ Luigis_Mansion.tlst - 5 tracks
 
 	Watch Out (Virtua Fighter 4)
 	Virtua Fighter\Watch Out (Virtua Fighter 4).brstm
-	Volume: 80
-	Frequency: 100
+	Volume: 70
+	Frequency: 10
 
 	The Last Survivor (Virtua Fighter 4)
 	Virtua Fighter\The Last Survivor (Virtua Fighter 4).brstm
 	Volume: 75
-	Frequency: 40
+	Frequency: 10
 
 	Dural Theme (Virtua Fighter 5 Ultimate Showdown)
 	Virtua Fighter\Dural Theme (Virtua Fighter 5 Ultimate Showdown).brstm
 	Volume: 90
-	Frequency: 65
+	Frequency: 10
+
+	Deep Breath Deep Breath (Persona 3)
+	persona/deep breath deep breath.brstm
+	Volume: 80
+	Frequency: 40
+
+	Blooming Villain (P5D Mix)
+	persona/blooming villain.brstm
+	Volume: 60
+	Frequency: 40
 
 ################
 Lylat_Cruise.tlst - 9 tracks
@@ -1325,7 +1410,7 @@ Mario_Paint.tlst - 1 track
 	Song delay: -1
 
 ################
-Menu.tlst - 7 tracks
+Menu.tlst - 19 tracks
 
 	Menu 1
 	X02.brstm (0x26FA)
@@ -1346,17 +1431,77 @@ Menu.tlst - 7 tracks
 	Clock Tower Stage (Marvel vs Capcom 2)
 	Marvel vs Capcom\Clock Tower Stage (Marvel vs Capcom 2).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
 
 	Rising Dragoon (Street Fighter EX Plus)
 	Street Fighter\Rising Dragoon (Street Fighter EX Plus).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
 
 	River Stage (Marvel vs Capcom 2)
 	Marvel vs Capcom\River Stage (Marvel vs Capcom 2).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 0
+
+	A Woman (Persona 5)
+	persona\a woman.brstm
+	Volume: 80
+	Frequency: 40
+
+	Afternoon Break (Persona 4)
+	persona\afternoon break.brstm
+	Volume: 60
+	Frequency: 40
+
+	Gentle Madman (Persona 5 Royal)
+	persona\gentle madman.brstm
+	Volume: 80
+	Frequency: 40
+
+	Ideal and the Real (Persona 5 Royal)
+	persona\ideal and the real.brstm
+	Volume: 100
+	Frequency: 40
+
+	King Queen and Slave (Persona 5)
+	persona\king, queen, and slave.brstm
+	Volume: 80
+	Frequency: 40
+
+	Night Rain (Persona 5)
+	persona\night rain.brstm
+	Volume: 80
+	Frequency: 40
+
+	Phantom (Persona 5)
+	persona\phantom (persona 5).brstm
+	Volume: 80
+	Frequency: 40
+
+	Signs of Love (Persona 4)
+	persona\signs of love.brstm
+	Volume: 80
+	Frequency: 40
+
+	So Happy World (Persona 5 Royal)
+	persona\so happy world.brstm
+	Volume: 80
+	Frequency: 40
+
+	Tartarus Admah Block (Persona 3)
+	persona\Tartarus Adamah Block (Persona 3).brstm
+	Volume: 80
+	Frequency: 5
+
+	The Days When My Mother Was There (Persona 5)
+	persona\The Days When My Mother Was There (Persona 5).brstm
+	Volume: 80
+	Frequency: 40
+
+	Youthful Lunch (Persona 4)
+	persona\youthful lunch.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Mercury_Lighthouse.tlst - 2 tracks
@@ -1790,7 +1935,7 @@ Pokemon_Stadium.tlst - 3 tracks
 	Song delay: -1
 
 ################
-Pokemon_Stadium_2.tlst - 7 tracks
+Pokemon_Stadium_2.tlst - 10 tracks
 
 	Pokémon Red & Blue Medley
 	W10.brstm (0x2808)
@@ -1814,17 +1959,32 @@ Pokemon_Stadium_2.tlst - 7 tracks
 	Karma Electric Fountain (Tekken 6)
 	Tekken\Karma Electric Fountain (Tekken 6).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
 
 	Tulip Festival (Tekken Tag 2)
 	Tekken\Tulip Festival (Tekken Tag Tournament 2).brstm
 	Volume: 55
-	Frequency: 80
+	Frequency: 20
 
 	Soy Sauce for Geese (Tekken 7)
 	Tekken\Soy Sauce for Geese (Tekken 7).brstm
 	Volume: 60
-	Frequency: 100
+	Frequency: 0
+
+	Jaldabaoth (Persona 5)
+	persona\jaldabaoth.brstm
+	Volume: 80
+	Frequency: 40
+
+	Take Over (Persona 5 Royal)
+	persona\take over (persona 5 royal).brstm
+	Volume: 80
+	Frequency: 40
+
+	Unavoidable Battle -Reincarnation- (Persona 3)
+	persona\Unavoidable Battle - Burn My Dread Mix.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Pokemon_Stadium_2_Brawl.tlst - 5 tracks
@@ -2225,8 +2385,8 @@ Results.tlst - 51 tracks
 	Frequency: 40
 
 	<null>
-	Darkstalkers/Network Lobby Music (Darkstalkers Chronicle).brstm
-	Volume: 80
+	persona\tartarus block 1-6.brstm
+	Volume: 100
 	Frequency: 40
 
 ################
@@ -2415,7 +2575,7 @@ Sky_Sanctuary.tlst - 2 tracks
 	Frequency: 40
 
 ################
-Smashville.tlst - 10 tracks
+Smashville.tlst - 13 tracks
 
 	Go K.K. Rider!
 	N02.brstm (0x27B4)
@@ -2449,17 +2609,32 @@ Smashville.tlst - 10 tracks
 	Good Manners and Customs (Guilty Gear XX Accent Core Plus)
 	Guilty Gear\Good Manners and Customs (Guilty Gear XX Accent Core Plus).brstm
 	Volume: 95
-	Frequency: 80
+	Frequency: 10
 
 	Home Sweet Grave (Guilty Gear Isuka)
 	Guilty Gear\Home Sweet Grave (Guilty Gear Isuka).brstm
 	Volume: 90
-	Frequency: 80
+	Frequency: 10
 
 	Pillars of the Underworld (Guilty Gear)
 	Guilty Gear/Pillars of the Underworld (Guilty Gear).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
+
+	Hidden Base (Persona 4)
+	persona\hidden base.brstm
+	Volume: 70
+	Frequency: 40
+
+	Changing Season -Reincarnation- (Persona 3)
+	persona\Changing Seasons Reincarnation.brstm
+	Volume: 80
+	Frequency: 40
+
+	When the Moon's Reaching Out to the Stars -Reincarnation- (Persona 3)
+	persona\When the Moon's Reaching out the stars -Reincarnation-.brstm
+	Volume: 80
+	Frequency: 40
 
 ################
 Smashville_Concert.tlst - 6 tracks
@@ -2756,7 +2931,7 @@ Yoshis_Cookie.tlst - 1 track
 	Frequency: 40
 
 ################
-Yoshis_Island.tlst - 8 tracks
+Yoshis_Island.tlst - 11 tracks
 
 	Athletic (Yoshi's Island)
 	E02.brstm (0x2751)
@@ -2782,17 +2957,32 @@ Yoshis_Island.tlst - 8 tracks
 	11th Street (Fatal Fury Wild Ambition)
 	Fatal Fury\11th Street (Fatal Fury Wild Ambition).brstm
 	Volume: 88
-	Frequency: 80
+	Frequency: 10
 
 	Rhythmical Bustle (Melty Blood)
 	Melty Blood\Rhythmical Bustle (Melty Blood).brstm
 	Volume: 80
-	Frequency: 80
+	Frequency: 10
 
 	This Is True Love Makin (Capcom vs SNK 2)
 	Capcom vs SNK\This Is True Love Makin (Capcom vs SNK 2).brstm
 	Volume: 70
-	Frequency: 80
+	Frequency: 10
+
+	Mass Desstruction (Persona 3)
+	persona\mass destruction (persona 3).brstm
+	Volume: 70
+	Frequency: 40
+
+	Price (Persona 5)
+	persona\price.brstm
+	Volume: 80
+	Frequency: 40
+
+	Sweatshop (Persona 5)
+	persona\sweatshop.brstm
+	Volume: 65
+	Frequency: 40
 
 ################
 Yoshis_Island_Melee.tlst - 3 tracks
