@@ -1,7 +1,5 @@
 BATTLEFIELD
 
-Crazy Chili Dog - Street Fighter III 3rd Strike
-Killing Moon - Street Fighter III 3rd Strike
 Psyche Out - Street Fighter III 3rd Strike
 Memories of You (Persona 3 Dancing Moonlight Mix)
 Prison Labor (Persona 5 Royal)
@@ -10,8 +8,6 @@ The Arena - Naked Mix (Persona 4 Ultimax)
 
 CASTLE SIEGE
 
-Eternal Struggle - Soulcalibur II
-Glacial Colosseum - Soulcalibur IV
 Sword of the Patriot - Soulcalibur II
 Keep Your Faith (Persona 5 Royal)
 Master of Tartarus (Persona 3)
@@ -20,8 +16,6 @@ Will Power (Persona 5)
 
 DREAM LAND
 
-Purity Strictly - Under Night InBirth
-Scraper Sky High - Under Night InBirth
 Snow Sisters - Under Night InBirth
 Ark (Persona 5)
 Layer Cake (Persona 5)
@@ -59,9 +53,6 @@ Deep Breat Deep Breath (Persona 3)
 
 MENU
 
-Clock Tower Stage - Marvel vs Capcom 2
-Rising Dragoon - Street Fighter EX Plus
-River Stage - Marvel vs Capcom 2
 A Woman (Persona 5)
 Afternoon Break (Persona 3)
 Gentle Madman (Persona 5 Royal)
@@ -80,7 +71,6 @@ POKEMON STADIUM 2
 
 Karma Electric Fountain - Tekken 6
 Tulip Festival - Tekken Tag Tournament 2
-Soy Sauce for Geese - Tekken 7
 Jaldabaoth (Persona 5)
 Take Over (Persona 5 Royal)
 Unavoidable Battle -Reincarnation- (Persona 3)
@@ -96,7 +86,7 @@ Hidden Base (Persona 4)
 When the Moon's Reaching Out the Stars -Reinarnation- (Persona 3)
 
 
-YOSHI'S STORY
+YOSHI'S ISLAND
 
 11th Street - Fatal Fury Wild Ambition
 Rhythmical Bustle - Melty Blood Actress Again
