@@ -1,5 +1,5 @@
 ################
-Battlefield.tlst - 14 tracks
+Battlefield.tlst - 12 tracks
 
 	Battlefield (Brawl)
 	X04.brstm (0x26FC)
@@ -32,16 +32,6 @@ Battlefield.tlst - 14 tracks
 
 	Shin Onigashima
 	Q08.brstm (0x27CA)
-	Frequency: 0
-
-	Crazy Chili Dog (Street Fighter III 3rd Strike)
-	Street Fighter\Crazy Chili Dog (Street Fighter III 3rd Strike).brstm
-	Volume: 80
-	Frequency: 0
-
-	Killing Moon (Street Fighter III 3rd Strike)
-	Street Fighter\Killing Moon (Street Fighter III 3rd Strike).brstm
-	Volume: 80
 	Frequency: 0
 
 	Psyche Out (Street Fighter III 3rd Strike)
@@ -274,7 +264,7 @@ Candy_Constellation.tlst - 1 track
 	Song delay: -1
 
 ################
-Castle_Siege.tlst - 16 tracks
+Castle_Siege.tlst - 14 tracks
 
 	Theme of Fire Emblem
 	J02.brstm (0x2783)
@@ -319,17 +309,6 @@ Castle_Siege.tlst - 16 tracks
 	Shadow Dragon Medley
 	J03.brstm (0x2784)
 	Frequency: 0
-
-	Eternal Struggle (Soulcalibur II)
-	Soulcalibur\Eternal Struggle (Soulcalibur II).brstm
-	Volume: 90
-	Frequency: 0
-
-	Glacial Colosseum (Soulcalibur IV)
-	Soulcalibur\Glacial Colosseum (Soulcalibur IV).brstm
-	Volume: 90
-	Frequency: 0
-	Song delay: 15
 
 	Sword of the Patriot (Soulcalibur II)
 	Soulcalibur\Sword of the Patriot (Soulcalibur II).brstm
@@ -583,7 +562,7 @@ Delfino_Plaza.tlst - 5 tracks
 	Frequency: 40
 
 ################
-Delfino_Secret.tlst - 6 tracks
+Delfino_Secret.tlst - 3 tracks
 
 	Overworld (Super Mario Bros. 3)
 	W15.brstm (0x280D)
@@ -597,21 +576,6 @@ Delfino_Secret.tlst - 6 tracks
 	A08.brstm (0x271B)
 	Frequency: 0
 	Song delay: 45
-
-	Beyond Memories (FateUnlimited Codes)
-	FateUnlimited Codes\Beyond Memories (FateUnlimited Codes).brstm
-	Volume: 80
-	Frequency: 80
-
-	Mighty Wind (FateUnlimited Codes)
-	FateUnlimited Codes\Mighty Wind (FateUnlimited Codes).brstm
-	Volume: 80
-	Frequency: 80
-
-	Mission Battle (FateUnlimited Codes)
-	FateUnlimited Codes\Mission Battle (FateUnlimited Codes).brstm
-	Volume: 80
-	Frequency: 80
 
 ################
 Distant_Planet.tlst - 4 tracks
@@ -705,7 +669,7 @@ Draculas_Castle.tlst - 1 track
 	Frequency: 40
 
 ################
-Dream_Land.tlst - 11 tracks
+Dream_Land.tlst - 9 tracks
 
 	King Dedede's Theme
 	F02.brstm (0x2758)
@@ -726,16 +690,6 @@ Dream_Land.tlst - 11 tracks
 
 	Rainbow Route
 	F09.brstm (0x275F)
-	Frequency: 0
-
-	Purity & Strictly (Under Night InBirth)
-	Under Night InBirth\Purity & Strictly (Under Night InBirth).brstm
-	Volume: 80
-	Frequency: 0
-
-	Sky Scraper High (Under Night InBirth)
-	Under Night InBirth\Sky Scraper High (Under Night InBirth).brstm
-	Volume: 80
 	Frequency: 0
 
 	Snow Sisters (Under Night InBirth)
@@ -1410,7 +1364,7 @@ Mario_Paint.tlst - 1 track
 	Song delay: -1
 
 ################
-Menu.tlst - 19 tracks
+Menu.tlst - 16 tracks
 
 	Menu 1
 	X02.brstm (0x26FA)
@@ -1426,21 +1380,6 @@ Menu.tlst - 19 tracks
 
 	Main Theme (Super Smash Bros. Brawl)
 	X01.brstm (0x26F9)
-	Frequency: 0
-
-	Clock Tower Stage (Marvel vs Capcom 2)
-	Marvel vs Capcom\Clock Tower Stage (Marvel vs Capcom 2).brstm
-	Volume: 80
-	Frequency: 0
-
-	Rising Dragoon (Street Fighter EX Plus)
-	Street Fighter\Rising Dragoon (Street Fighter EX Plus).brstm
-	Volume: 80
-	Frequency: 0
-
-	River Stage (Marvel vs Capcom 2)
-	Marvel vs Capcom\River Stage (Marvel vs Capcom 2).brstm
-	Volume: 80
 	Frequency: 0
 
 	A Woman (Persona 5)
@@ -1533,7 +1472,7 @@ Metal_Cavern_64.tlst - 1 track
 	Frequency: 40
 
 ################
-Metroid_Lab.tlst - 6 tracks
+Metroid_Lab.tlst - 3 tracks
 
 	Vs. Ridley
 	D04.brstm (0x2749)
@@ -1546,21 +1485,6 @@ Metroid_Lab.tlst - 6 tracks
 	Vs. Meta Ridley
 	D09.brstm (0x274E)
 	Frequency: 0
-
-	Watch Out (Virtua Fighter 4)
-	Virtua Fighter\Watch Out (Virtua Fighter 4).brstm
-	Volume: 80
-	Frequency: 100
-
-	The Last Survivor (Virtua Fighter 4)
-	Virtua Fighter\The Last Survivor (Virtua Fighter 4).brstm
-	Volume: 75
-	Frequency: 40
-
-	Dural Theme (Virtua Fighter 5 Ultimate Showdown)
-	Virtua Fighter\Dural Theme (Virtua Fighter 5 Ultimate Showdown).brstm
-	Volume: 90
-	Frequency: 65
 
 ################
 Minecart_Madness.tlst - 1 track
@@ -1935,7 +1859,7 @@ Pokemon_Stadium.tlst - 3 tracks
 	Song delay: -1
 
 ################
-Pokemon_Stadium_2.tlst - 10 tracks
+Pokemon_Stadium_2.tlst - 9 tracks
 
 	Pokémon Red & Blue Medley
 	W10.brstm (0x2808)
@@ -1965,11 +1889,6 @@ Pokemon_Stadium_2.tlst - 10 tracks
 	Tekken\Tulip Festival (Tekken Tag Tournament 2).brstm
 	Volume: 55
 	Frequency: 20
-
-	Soy Sauce for Geese (Tekken 7)
-	Tekken\Soy Sauce for Geese (Tekken 7).brstm
-	Volume: 60
-	Frequency: 0
 
 	Jaldabaoth (Persona 5)
 	persona\jaldabaoth.brstm
