@@ -63,6 +63,14 @@ int ALC_P1_INDEX = -1;
 int ALC_P2_INDEX = -1;
 int ALC_P3_INDEX = -1;
 int ALC_P4_INDEX = -1;
+// Player Slot Color Changer
+int BACKPLATE_COLOR_1_INDEX = -1;
+int BACKPLATE_COLOR_2_INDEX = -1;
+int BACKPLATE_COLOR_3_INDEX = -1;
+int BACKPLATE_COLOR_4_INDEX = -1;
+int BACKPLATE_COLOR_C_INDEX = -1;
+int BACKPLATE_COLOR_T_INDEX = -1;
+
 int EXTERNAL_INDEX = -1;	//Used for codes that use others for context
 
 //constant overrides
@@ -318,6 +326,17 @@ void CodeMenu()
 	MainLines.push_back(new Selection("Tag-Based Costumes", { "ON", "ON + Teams", "OFF" }, 0, TAG_COSTUME_TOGGLE_INDEX));
 	MainLines.push_back(new Selection("Code Menu Activation", { "Enabled", "Debug", "Disabled" }, 0, CODE_MENU_ACTIVATION_SETTING_INDEX));
 
+	// HUD Color Settings
+	vector<Line*> HUDColorLines;
+	HUDColorLines.push_back(new Comment("Replacement Hud Colors:"));
+	HUDColorLines.push_back(new Integer("Red",		0, 9, 1, 1, BACKPLATE_COLOR_1_INDEX, "Color %d"));
+	HUDColorLines.push_back(new Integer("Blue",		0, 9, 2, 1, BACKPLATE_COLOR_2_INDEX, "Color %d"));
+	HUDColorLines.push_back(new Integer("Yellow",	0, 9 - 1, 3, 1, BACKPLATE_COLOR_3_INDEX, "Color %d"));
+	HUDColorLines.push_back(new Integer("Green",	0, 9 - 1, 4, 1, BACKPLATE_COLOR_4_INDEX, "Color %d"));
+	HUDColorLines.push_back(new Integer("Gray",		9, 9, 9, 0, BACKPLATE_COLOR_C_INDEX, "Color %d")); // Note: Cannot be changed, on purpose.
+	HUDColorLines.push_back(new Integer("Clear",	0, 0, 0, 0, BACKPLATE_COLOR_T_INDEX, "Color %d")); // Note: Cannot be changed, on purpose.
+	Page HUDColorsPage("HUD Colors", HUDColorLines);
+	MainLines.push_back(&HUDColorsPage.CalledFromLine);
 	
 	//MainLines.push_back(new Print("%s", {&tets}));
 	
@@ -855,6 +874,18 @@ void CreateMenu(Page MainPage)
 	AddValueToByteArray(ALC_P3_INDEX, Header);
 	AddValueToByteArray(ALC_P4_INDEX, Header);
 	//
+
+	// Backplate Settings
+	AddValueToByteArray(BACKPLATE_COLOR_1_INDEX, Header);
+	AddValueToByteArray(BACKPLATE_COLOR_2_INDEX, Header);
+	AddValueToByteArray(BACKPLATE_COLOR_3_INDEX, Header);
+	AddValueToByteArray(BACKPLATE_COLOR_4_INDEX, Header);
+	AddValueToByteArray(BACKPLATE_COLOR_C_INDEX, Header);
+	AddValueToByteArray(BACKPLATE_COLOR_T_INDEX, Header);
+	//BACKPLATE_COLOR_TEAM_BATTLE_STORE_LOC
+	// Used to store some temp values related to the color changer!
+	// First byte is an offset used to lbzx to either VALUE or DEFAULT quickly (init to VALUE).
+	AddValueToByteArray(Line::VALUE << 0x18, Header);
 
 	//draw settings buffer
 	vector<u32> DSB(0x200 / 4, 0);
