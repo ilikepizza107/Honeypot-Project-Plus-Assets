@@ -6,7 +6,7 @@ op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
 #####################################
-P3 on results screen is purple [Bird]
+!P3 on results screen is purple [Bird]
 #####################################
 * 02408A2E 0000B081
 * 02408A30 0000FFA0
@@ -47,6 +47,8 @@ P3 on results screen is purple [Bird]
 
 .include Source/Stagelists/RandomStagelist.asm
 .include Source/Extras/UnlockEverything.asm
+
+.include Source/Extras/BackplateColorsStandalone.asm
 
 .include Source/Extras/Console.asm	# Only use this on a Wii or Wii U! The codes in this are necessary for the slower specifications of the actual console.
 #.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
