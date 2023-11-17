@@ -289,7 +289,7 @@ Source/Stagelists/RandomStagelist.asm
 Source/Extras/UnlockEverything.asm
 	Unlock Everything [eric]
 Source/Extras/BackplateColorsStandalone.asm
-	[CM _BackplateColors] Backplate Color Code (Standalone Ver. 1.0.0) [QuickLava]
+	[CM _BackplateColors] Backplate Color Code (Standalone Ver. 1.0.5) [QuickLava]
 Source/Extras/Console.asm
 	480p Pixel Fix Patch [leseratte, Eon]
 Source/Extras/More.asm

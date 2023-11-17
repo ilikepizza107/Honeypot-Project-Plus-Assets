@@ -4917,7 +4917,7 @@ Unlock Everything [eric]
 * 0817CB68 02020202
 * 201F0004 00000000
 
-[CM _BackplateColors] Backplate Color Code (Standalone Ver. 1.0.0) [QuickLava]
+[CM _BackplateColors] Backplate Color Code (Standalone Ver. 1.0.5) [QuickLava]
 * E0000000 80008000
 * C26945E8 00000003
 * 1D830008 398C0008
@@ -5027,6 +5027,11 @@ Unlock Everything [eric]
 * 3D60804E 898B02D8
 * 530B143A 816B02C0
 * 7F0B602E 3B5B0004
+* 60000000 00000000
+* C26B2FC8 00000004
+* 3D60804E 898B02D8
+* 52EB143A 816B02C0
+* 7EEB602E 6EE08000
 * 60000000 00000000
 
 480p Pixel Fix Patch [leseratte, Eon]
