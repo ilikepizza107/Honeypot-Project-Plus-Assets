@@ -5,13 +5,8 @@
 op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
-#####################################
-P3 on results screen is purple [Bird]
-#####################################
-* 02408A2E 0000B081
-* 02408A30 0000FFA0
-
 .include Source/LegacyTE/Replays.asm
+
 .include Source/Project+/StageFiles.asm
 .include Source/Project+/CustomRequirements.asm
 .include Source/Project+/Shake.asm
@@ -21,7 +16,12 @@ P3 on results screen is purple [Bird]
 .include Source/Project+/Timeout.asm
 .include Source/Project+/UCF.asm
 .include Source/Project+/PSA.asm
+.include Source/Project+/AnimatedCSS.asm
+.include Source/Project+/Hurtbox.asm
+
+.include Source/ProjectM/IdleAudioFade.asm
 .include Source/ProjectM/Constants.asm
+
 .include Source/ProjectM/PSA/Effects.asm
 .include Source/ProjectM/PSA/Misc.asm
 .include Source/ProjectM/PSA/Tethers.asm
@@ -44,9 +44,8 @@ P3 on results screen is purple [Bird]
 .include Source/Project+/Items.asm
 .include Source/Project+/Pause.asm
 .include Source/Project+/Collision.asm
-
-.include Source/Stagelists/RandomStagelist.asm
-.include Source/Extras/UnlockEverything.asm
+#.include Source/Project+/TexFlags.asm	# This code is currently having issues interacting with the Code Menu. Included 
+					# to allow an understanding of how it will mechanically work in the future.
 
 .include Source/Extras/Console.asm	# Only use this on a Wii or Wii U! The codes in this are necessary for the slower specifications of the actual console.
 #.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!

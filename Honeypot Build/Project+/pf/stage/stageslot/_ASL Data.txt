@@ -32,10 +32,10 @@ Z: Delfino_Secret_Z.param
 ################
 04.asl - 4 entries
 
-Base: Luigi_Mansion.param
-R: Luigi_Mansion_R.param
-L: Luigi_Mansion_L.param
-Z: Luigi_Mansion_Z.param
+Base: Luigis_Mansion.param
+R: Luigis_Mansion_R.param
+L: Luigis_Mansion_L.param
+Z: Luigis_Mansion_Z.param
 
 
 ################
@@ -82,10 +82,10 @@ X+L: Rumble_Falls_LX.param
 ################
 09.asl - 4 entries
 
-Base: Pirate_Ship.param
-R: Pirate_Ship_R.param
-L: Pirate_Ship_L.param
-Z: Pirate_Ship_Z.param
+Base: Temple_of_Time.param
+R: Temple_of_Time_R.param
+L: Temple_of_Time_L.param
+Z: Temple_of_Time_Z.param
 
 
 ################
@@ -100,20 +100,21 @@ Z: Norfair_Z.param
 ################
 0C.asl - 5 entries
 
-Base: Frigate_Orpheon.param
-R: Frigate_Orpheon_R.param
-L: Frigate_Orpheon_L.param
-Z: Frigate_Orpheon_Z.param
-X: Frigate_Orpheon_X.param
+Base: Frigate_Husk.param
+R: Frigate_Husk_R.param
+L: Frigate_Husk_L.param
+Z: Frigate_Husk_Z.param
+X: Frigate_Husk_X.param
 
 
 ################
-0D.asl - 4 entries
+0D.asl - 5 entries
 
 Base: Yoshis_Island.param
-L: Yoshis_Island_L.param
 R: Yoshis_Island_R.param
+L: Yoshis_Island_L.param
 Z: Yoshis_Island_Z.param
+X: Yoshis_Island_X.param
 
 
 ################
@@ -177,19 +178,20 @@ Z: Infinite_Glacier_Z.param
 ################
 18.asl - 4 entries
 
-Base: Castle_Siege.param
-L: Castle_Siege_L.param
-R: Castle_Siege_R.param
-Z: Castle_Siege_Z.param
-
-
-################
-19.asl - 4 entries
-
 Base: Flat_Zone.param
 R: Flat_Zone_R.param
 L: Flat_Zone_L.param
 Z: Flat_Zone_Z.param
+
+
+################
+19.asl - 5 entries
+
+Base: Castle_Siege.param
+R: Castle_Siege_R.param
+L: Castle_Siege_L.param
+Z: Castle_Siege_Z.param
+X: Castle_Siege_X.param
 
 
 ################
@@ -261,12 +263,13 @@ Z: Shadow_Moses_Z.param
 
 
 ################
-23.asl - 4 entries
+23.asl - 5 entries
 
 Base: Green_Hill_Zone.param
 R: Green_Hill_Zone_R.param
 L: Green_Hill_Zone_L.param
 Z: Green_Hill_Zone_Z.param
+X: Green_Hill_Zone_X.param
 
 
 ################
@@ -398,12 +401,13 @@ X: Planet_Zebes_X.param
 
 
 ################
-33.asl - 4 entries
+33.asl - 5 entries
 
-Base: Hyrule_Meadows.param
-L: Hyrule_Meadows_L.param
-R: Hyrule_Meadows_R.param
-Z: Hyrule_Meadows_Z.param
+Base: Hyrule_Castle.param
+R: Hyrule_Castle_R.param
+L: Hyrule_Castle_L.param
+Z: Hyrule_Castle_Z.param
+Y: Hyrule_Castle_Y.param
 
 
 ################
@@ -466,21 +470,23 @@ Z: Mario_Circuit_Z.param
 
 
 ################
-42.asl - 4 entries
+42.asl - 5 entries
 
 Base: Clock_Town.param
 R: Clock_Town_R.param
 L: Clock_Town_L.param
 Z: Clock_Town_Z.param
+Y+Z: Clock_Town_ZY.param
 
 
 ################
-43.asl - 4 entries
+43.asl - 5 entries
 
 Base: Sky_Sanctuary.param
 R: Sky_Sanctuary_R.param
 L: Sky_Sanctuary_L.param
 Z: Sky_Sanctuary_Z.param
+X: Sky_Sanctuary_X.param
 
 
 ################
@@ -531,10 +537,10 @@ Z: Bell_Tower_Z.param
 ################
 49.asl - 4 entries
 
-Base: Metroid_Lab.param
-R: Metroid_Lab_R.param
-L: Metroid_Lab_L.param
-Z: Metroid_Lab_Z.param
+Base: Ceres_Space_Colony.param
+R: Ceres_Space_Colony_R.param
+L: Ceres_Space_Colony_L.param
+Z: Ceres_Space_Colony_Z.param
 
 
 ################
@@ -604,5 +610,14 @@ Base: Poke_Floats.param
 R: Poke_Floats_R.param
 L: Poke_Floats_L.param
 Z: Poke_Floats_Z.param
+
+
+################
+51.asl - 4 entries
+
+Base: Pirate_Ship.param
+R: Pirate_Ship_R.param
+L: Pirate_Ship_L.param
+Z: Pirate_Ship_Z.param
 
 
