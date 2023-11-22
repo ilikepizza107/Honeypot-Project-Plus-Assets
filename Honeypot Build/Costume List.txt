@@ -6,83 +6,52 @@ MARIO
 40 - Bee Mario by SJS [https://gamebanana.com/mods/247079]
 
 LINK
-27 - SgtPingwen Link by ilikepizza107
 
 SAMUS
 06 - cBliss yellow Samus by SJS [https://gamebanana.com/mods/247124]
 
 YOSHI
-30 - Whoratio Yoshi by Z-Stick, ilikepizza107
 
 KIRBY
-24 - influenza Kirby by ilikepizza107, influenza
-34 -  Y G L Kirby by ilikepizza107
 
 FOX
-09 - Silver Fox by Baka
-10 - Star Green Fox by ilikepizza107
-11 - Star Blue Fox by ilikepizza107
-30 - Drip Fox by Wyld
 
 CAPTAIN FALCON
-09 - shad Captain Falcon by influenza
-35 - ORLY Captain Falcon by Wyld
 
 ZELDA
-09 - Y G L Zelda by ilikepizza107
-26 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
-27 - Evil Lesbian Zelda by Evil Lesbian, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
-28 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
+
 
 SHEIK
-09 - Y G L Sheik by ilikepizza107
 26 - RoSheik by jetfantastic [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=213577]
-27 - Evil Lesbian Sheik by Evil Lesbian, ilikepizza107
-28 - KWAM Sheik by ilikepizza107
 
 ICE CLIMBERS
-25 - maka Ice Climbers by influenza
 
 MARTH
-34 - Crona Marth by influenza
-35 - slatty Marth by Z-Stick
-40 - polear Marth by Z-Stick
 
 GANONDORF
-25 - Che Ganondorf by DHS7
-40 - joey Ganondorf by DHS7
 
 META KNIGHT
-24 - Kulprit Meta Knight by ilikepizza107
 
 ZERO SUIT SAMUS
 06 - Bee ZSS by ilikepizza107
 
 LUCAS
-40 - zLucas Blue by SJS, Star
-41 - zLucas Green by SJS, Star
-42 - zLucas Red by SJS, Star
 
 SQUIRTLE
-30 - Whoratio Squirtle by Z-Stick
 
 DEDEDE
 11 - Beebeebee by Aerodrome [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=24572]
 
 LUCARIO
-25 - influenza Lucario by influenza, with credit to Chucklez, LnktheWolf, and PMDT
 
 IKE
-24 - influezna Ike by influenza
 AltZ - Berserk Armor Guts by ilikepizza107, with credit to ASideOfChidori and buu342 for the models and Rocky38 for importing (optimized by ilikepizza107)
 
 R.O.B.
 
 TOON LINK
-07 - Shrug Toon Link by Wyld
 
 WOLF
-Tag 'EXE' - S̸̲̔̓o̴̦̲̭͙̩̽́̎͊̈́̓ň̷̲͖͗͊̔̅ï̵͈̪̽͘c̷̡̛̺͉̱̥̔̍̑͗̀.̷̡̛̺̙̼͓̀̏̋͠͠e̵̢͕̺̗̤̬̽̔̕͝͝͠x̴̣̜̙̦̃͗̿̚̚é̶͈͎̲̤̉͋̏ ̴̨̘̟͌͆͛͆̊͘a̷̛̻͍̐̇̿̚͜l̶̘̈͐t̴̛͓͉͈̰̊̏̀̐ ̶̥͙̥͍́̐̔͆́̀͜f̶̢͋̋̈́ố̶̫̅̐r̴̼̋̌̃ ̵̙̮̑̀̂̂̕͠W̴̤̖̮͖̞̦̄͠o̶̲͍̜̦̯̳͛̅̽͝ḷ̷̖̋͝f̸̢̱̭̑͗̎̕ by KTH, BBreon [https://gamebanana.com/mods/247325]
 
 KNUCKLES
 30 - HDK Knuckles by ilikepizza107, with credit to SJS, StarWaffle, and tryptech; render setup by Chucklez [https://gamebanana.com/mods/247350]
