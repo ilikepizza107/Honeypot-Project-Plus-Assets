@@ -63,6 +63,15 @@ extern int ALC_P1_INDEX;
 extern int ALC_P2_INDEX;
 extern int ALC_P3_INDEX;
 extern int ALC_P4_INDEX;
+// Player Slot Color Changer
+extern int BACKPLATE_COLOR_1_INDEX;
+extern int BACKPLATE_COLOR_2_INDEX;
+extern int BACKPLATE_COLOR_3_INDEX;
+extern int BACKPLATE_COLOR_4_INDEX;
+extern int BACKPLATE_COLOR_C_INDEX;
+extern int BACKPLATE_COLOR_T_INDEX;
+// Note: There is intentionally no INDEX value corresponding to BACKPLATE_COLOR_TEAM_BATTLE_STORE.
+// It doesn't represent a code menu line like the others do, it's just some working space, so it doesn't need one.
 
 struct ConstantPair {
 	int address;
@@ -208,7 +217,16 @@ static const int ALC_P2_LOC = ALC_P1_LOC + 4; //4
 static const int ALC_P3_LOC = ALC_P2_LOC + 4; //4
 static const int ALC_P4_LOC = ALC_P3_LOC + 4; //4
 
-static const int DRAW_SETTINGS_BUFFER_LOC = ALC_P4_LOC + 4; //0x200
+// Player Slot Color Changer
+static const int BACKPLATE_COLOR_1_LOC = ALC_P4_LOC + 4; //4
+static const int BACKPLATE_COLOR_2_LOC = BACKPLATE_COLOR_1_LOC + 4; //4
+static const int BACKPLATE_COLOR_3_LOC = BACKPLATE_COLOR_2_LOC + 4; //4
+static const int BACKPLATE_COLOR_4_LOC = BACKPLATE_COLOR_3_LOC + 4; //4
+static const int BACKPLATE_COLOR_C_LOC = BACKPLATE_COLOR_4_LOC + 4; //4
+static const int BACKPLATE_COLOR_T_LOC = BACKPLATE_COLOR_C_LOC + 4; //4
+static const int BACKPLATE_COLOR_TEAM_BATTLE_STORE_LOC = BACKPLATE_COLOR_T_LOC + 4; //4
+
+static const int DRAW_SETTINGS_BUFFER_LOC = BACKPLATE_COLOR_TEAM_BATTLE_STORE_LOC + 4; //0x200
 
 static const int START_OF_CODE_MENU = DRAW_SETTINGS_BUFFER_LOC + 0x200;
 
@@ -515,8 +533,8 @@ public:
 class Integer : public Line
 {
 public:
-	Integer(string Text, int Min, int Max, int Default, int Speed, int &Index)
-	: Line(Text + ":  %d", NUMBER_LINE_TEXT_START, INTEGER_LINE, 0, NORMAL_LINE_COLOR_OFFSET, &Index)
+	Integer(string Text, int Min, int Max, int Default, int Speed, int& Index, std::string format = "%d")
+	: Line(Text + ":  " + format, NUMBER_LINE_TEXT_START, INTEGER_LINE, 0, NORMAL_LINE_COLOR_OFFSET, &Index)
 	{
 		this->Min = Min;
 		this->Max = Max;
