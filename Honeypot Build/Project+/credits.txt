@@ -28,12 +28,12 @@ LINK
 
 SAMUS
 06 - cBliss yellow Samus by SJS [https://gamebanana.com/mods/247124]
+Samus Brawl Clone by SJS [https://gamebanana.com/mods/247126]
 
 YOSHI
 30 - Whoratio Yoshi by Z-Stick, ilikepizza107
 
 KIRBY
-25 - influenza Kirby by ilikepizza107, influenza
 25 - influenza Kirby by influenza
 34 - Y G L Kirby by ilikepizza107
 40 - WnL Kirby by Mr. Watch&Learn, with credit to SJS and KingJigglypuff
@@ -42,6 +42,7 @@ KIRBY
 47 - Star Green Kirby by influenza
 
 FOX
+Blitz Fox
 09 - Silver Fox by Baka
 10 - Star Green Fox by ilikepizza107
 11 - Star Blue Fox by ilikepizza107
@@ -56,7 +57,7 @@ CAPTAIN FALCON
 35 - ORLY Captain Falcon by Wyld
 
 NESS
-Not Chris Ness
+Not Chris Ness by ilikepizza107
 
 BOWSER
 
@@ -75,12 +76,12 @@ Vaporeon Sheik
 32 - KWAM Sheik by ilikepizza107
 
 ICE CLIMBERS
-25 - phresh Ice Climbers by 
+25 - phresh Ice Climbers by FingerStripes
 
 MARTH
-Rongunshu Marth
-Gunther Marth
-Artemis Marth
+Rongunshu Marth by Cyxx, DHS7
+Gunther Marth by ilikepizza107
+Artemis Marth by ilikepizza107
 34 - Crona Marth by influenza
 40 - polear Marth by Z-Stick
 
@@ -96,7 +97,7 @@ GANONDORF
 
 META KNIGHT
 24 - Kulprit Meta Knight by ilikepizza107
-Yuko MK
+Yuko MK by DHS7
 
 PIT
 
@@ -111,7 +112,7 @@ LUCAS
 40 - Star Red Lucas by Star, SJS
 41 - Star Blue Lucas by Star, SJS
 42 - Star Green Lucas by Star, SJS
-Shadowhawke Lucas
+Shadowhawke Lucas by SJS
 
 DIDDY KONG
 SipMastah Diddy by GKO
@@ -128,13 +129,15 @@ IVYSAUR
 
 DEDEDE
 11 - Beebeebee by Aerodrome [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=24572]
-Ripple Dedede
+Ripple Dedede by Wyld
 
 LUCARIO
 25 - influenza Lucario by influenza, with credit to Chucklez, LnktheWolf, and PMDT
 
 IKE
-Gunther Ike
+Gunther Ike by ilikepizza107
+Rongunshu Ike by the Cobalt team
+Blitz Ike by erg
 24 - influezna Ike by influenza
 AltZ - Berserk Armor Guts by ilikepizza107, with credit to ASideOfChidori and buu342 for the models and Rocky38 for importing (optimized by ilikepizza107)
 
@@ -145,7 +148,7 @@ JIGGLYPUFF
 SgtPingwen Jigglypuff by ilikepizza107
 
 WARIO
-Zstick Wario
+Zstick Wario by Zstick
 
 ROY
 
@@ -158,19 +161,19 @@ Tag 'EXE' - S̸̲̔̓o̴̦̲̭͙̩̽́̎͊̈́̓ň̷̲͖͗͊̔̅ï̵͈̪̽͘c̷�
 SNAKE
 06 - LTWB Snake by SoulOfficer
 07 - MVZY Snake by Wyld
-FlashingFire Snake (?)
-Autumn Snake
+FlashingFire Snake by Kurukato
+Autumn Snake by Autumn
 
 SONIC
-DHS7 Sonic
-Motobug Sonic
+DHS7 Sonic by DHS7
+Motobug Sonic by Motobug
 
 WARIO MAN
 
 BOWSER
 
 KNUCKLES
-Motobug Knux
+Motobug Knux by Motobug
 30 - HDK Knuckles by ilikepizza107, with credit to SJS, StarWaffle, and tryptech; render setup by Chucklez [https://gamebanana.com/mods/247350]
 AltZ - Metal Knuckles by SJS [https://gamebanana.com/mods/323365]
 
@@ -182,7 +185,7 @@ POKEMON STADIUM 2
 Base - Honeypot PS2 by ilikepizza107
 
 FRIGATE HUSK
-L -  Hyrule Meadows by Motobug
+L -  Hyrule Meadows by Motobug, with edits by mawwwk
 
 SMASHVILLE
 All - 2023 Smashville plat animation by Motobug
