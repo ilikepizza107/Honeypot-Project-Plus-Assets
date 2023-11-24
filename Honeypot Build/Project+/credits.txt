@@ -42,11 +42,11 @@ KIRBY
 47 - Star Green Kirby by influenza
 
 FOX
-Blitz Fox
 09 - Silver Fox by Baka
 10 - Star Green Fox by ilikepizza107
 11 - Star Blue Fox by ilikepizza107
-30 - Drip Fox by Wyld
+30 - Blitz Fox by Pnut
+40 - Drip Fox by Wyld
 
 PIKACHU
 
@@ -129,7 +129,7 @@ IVYSAUR
 
 DEDEDE
 11 - Beebeebee by Aerodrome [http://forums.kc-mm.com/Gallery/BrawlView.php?Number=24572]
-Ripple Dedede by Wyld
+Ripple Dedede by ???
 
 LUCARIO
 25 - influenza Lucario by influenza, with credit to Chucklez, LnktheWolf, and PMDT
