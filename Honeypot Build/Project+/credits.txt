@@ -179,10 +179,8 @@ WARIO MAN
 BOWSER
 
 KNUCKLES
-30 - HDK Knuckles by ilikepizza107, with credit to SJS, StarWaffle, and tryptech; render setup by Chucklez [https://gamebanana.com/mods/247350]
 34 - Motobug Knux by Motobug
 40 - Rasta Knux by DHS7
-AltZ - Metal Knuckles by SJS [https://gamebanana.com/mods/323365]
 
 ########################
 STAGES
