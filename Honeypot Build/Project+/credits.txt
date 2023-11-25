@@ -65,7 +65,6 @@ BOWSER
 PEACH
 
 ZELDA
-Vaporeon Zelda
 30 - Tuck Zelda by Tuck, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
 31 - Evil Lesbian Zelda by Evil Lesbian, ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
 32 - KWAM Zelda by ilikepizza107, using Hulkalex's Skyward Sword Zelda model [http://www.mediafire.com/file/1b0t0ned2djzmg2/Zelda+Skyloft.zip/file]
@@ -171,17 +170,17 @@ SNAKE
 Autumn Snake by Autumn
 
 SONIC
-DHS7 Sonic by DHS7
-Motobug Sonic by Motobug
+34 - Motobug Sonic by Motobug
+40 - DHS7 Sonic by DHS7
 
 WARIO MAN
 
 BOWSER
 
 KNUCKLES
-Rasta Knux by DHS7
-Motobug Knux by Motobug
 30 - HDK Knuckles by ilikepizza107, with credit to SJS, StarWaffle, and tryptech; render setup by Chucklez [https://gamebanana.com/mods/247350]
+34 - Motobug Knux by Motobug
+40 - Rasta Knux by DHS7
 AltZ - Metal Knuckles by SJS [https://gamebanana.com/mods/323365]
 
 ########################
