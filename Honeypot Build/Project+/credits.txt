@@ -44,8 +44,8 @@ KIRBY
 
 FOX
 09 - Silver Fox by Baka
-10 - Star Green Fox by ilikepizza107
-11 - Star Blue Fox by ilikepizza107
+10 - Star Blue Fox by ilikepizza107
+11 - Star Green Fox by ilikepizza107
 30 - Blitz Fox by Pnut
 40 - Drip Fox by Wyld
 
@@ -77,7 +77,7 @@ SHEIK
 35 - Vaporeon Sheik by Vaporeon
 
 ICE CLIMBERS
-25 - phresh Ice Climbers by FingerStripes
+40 - phresh Ice Climbers by FingerStripes
 
 MARTH
 06 - Gunther Marth by ilikepizza107
