@@ -9,7 +9,7 @@ Custom GFX for Star Lucas - Star, ilikepizza107
  - PSA Edited: Sub Action 48, GFX; Sub Action 49, GFX; Sub Action 58, Main; Sub Action 62, GFX; Sub Action 63, GFX; Sub Action 61, Other; Sub Action 66, GFX, Sub Action 66, Other
 
 Custom GFX for Crona Marth & Artemis Marth by SSK and KingJigglypuff, ilikepizza107
- - PSA Added: Subroutine 2x78F8, 2x82A0, 2x88C0
+ - PSA Added: Subroutine 2x7950, 2x7BF8, 2x88C0
  - PSA Edited: Sub Actions 48, GFX; 49, GFX; 4E, GFX; 50, GFX; 54, GFX; 55, GFX; 58, GFX; 5D, GFX; 60, GFX; 62, GFX; 63, GFX; 64, GFX; 65, GFX; 66, GFX; B0, GFX; B9, GFX; D7, GFX; DC, GFX; E7, GFX; 1D0, GFX; 1D1, GFX; 1D6, GFX; 1D7, GFX; 1D8, GFX; 1D9, GFX; 1DA, GFX; 1DB, GFX; 1DC, GFX; 1DD, GFX; 1DE, GFX; 1E8, GFX; 1EB, GFX; 1EE, GFX; 1EF, GFX; 1F0, GFX; 1F1, GFX; 1F2, GFX; 1F3, GFX; 1F4, GFX
 
 ################
@@ -80,11 +80,11 @@ ICE CLIMBERS
 40 - phresh Ice Climbers by FingerStripes
 
 MARTH
-06 - Gunther Marth by ilikepizza107
-07 - Artemis Marth by ilikepizza107
+07 - Gunther Marth by ilikepizza107
 34 - Crona Marth by influenza
 35 - Rongunshu Marth by Cyxx, DHS7
 40 - polear Marth by Z-Stick
+45 - Artemis Marth by ilikepizza107
 
 MR. GAME & WATCH
 17 - Rise GnW
