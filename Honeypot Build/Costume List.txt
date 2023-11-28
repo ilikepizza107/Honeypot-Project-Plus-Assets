@@ -85,7 +85,6 @@ GANONDORF
 
 META KNIGHT
 10 - YGL Meta Knight by ilikepizza107
-24 - Kulprit Meta Knight by ilikepizza107
 40 - Yuko MK by DHS7
 
 PIT
@@ -155,7 +154,7 @@ SNAKE
 07 - MVZY Snake by Wyld
 08 - Zstick Snake by Zstick
 25 - FlashingFire Snake by Kurukato
-Autumn Snake by Autumn
+AltR - Autumn Snake by Autumn
 
 SONIC
 34 - Motobug Sonic by Motobug
