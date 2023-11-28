@@ -180,8 +180,8 @@ WARIO MAN
 BOWSER
 
 KNUCKLES
-25 - Motobug Knux by Motobug
-40 - Rasta Knux by DHS7
+24 - Motobug Knux by Motobug
+30 - Rasta Knux by DHS7
 
 ########################
 STAGES
