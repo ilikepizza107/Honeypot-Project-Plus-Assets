@@ -154,7 +154,7 @@ JIGGLYPUFF
 
 WARIO
 12 - Zstick Wario by Zstick
-30 - Jr Chaffles Wario by Zstick
+13 - Jr Chaffles Wario by Zstick
 
 ROY
 
