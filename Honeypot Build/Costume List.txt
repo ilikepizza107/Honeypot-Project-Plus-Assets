@@ -155,8 +155,16 @@ SNAKE
 07 - MVZY Snake by Wyld
 08 - Zstick Snake by Zstick
 25 - FlashingFire Snake by Kurukato
-AltR - Autumn Snake by Autumn
+Autumn Snake by Autumn
 
 SONIC
 34 - Motobug Sonic by Motobug
 40 - DHS7 Sonic by DHS7
+
+WARIO MAN
+
+BOWSER
+
+KNUCKLES
+24 - Motobug Knux by Motobug
+30 - Rasta Knux by DHS7
