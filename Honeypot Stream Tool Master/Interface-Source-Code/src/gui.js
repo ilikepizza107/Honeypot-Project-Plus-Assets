@@ -10,8 +10,8 @@ const charPath = path.resolve(process.env.PORTABLE_EXECUTABLE_DIR, 'Resources', 
 // const charPath = path.join(__dirname, '..', '..', 'Stream Tool', 'Resources', 'Characters');
 
 //yes we all like global variables
-let stateP1 = "Nada";
-let stateP2 = "Nada";
+let stateP1 = "";
+let stateP2 = "";
 let charP1 = "Random";
 let charP2 = "Random";
 let skinP1 = "";
@@ -255,8 +255,8 @@ function loadColors(pNum) {
     }
 
     //finally, set initial values for the global color variables
-    colorP1 = "Default";
-    colorP2 = "Default";
+    colorP1 = "Red";
+    colorP2 = "Blue";
 }
 
 function updateColor() {
