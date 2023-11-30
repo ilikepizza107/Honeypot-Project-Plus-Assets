@@ -48,16 +48,16 @@
     ],
     "colorSlots": {
         "color0": {
+            "name": "Default",
+            "hex": "#DDDDDD"
+        },
+        "color1": {
             "name": "Red",
             "hex": "#E90004"
         },
-        "color1": {
+        "color2": {
             "name": "Blue",
             "hex": "#0A69E7"
-        },
-        "color2": {
-            "name": "Purple",
-            "hex": "#4A217B"
         },
         "color3": {
             "name": "Green",
